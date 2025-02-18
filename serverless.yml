@@ -1,0 +1,141 @@
+service: my-serverless-step-functions
+
+frameworkVersion: "4"
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  region: us-east-1
+  iamRoleStatements:
+    - Effect: "Allow"
+      Action:
+        - "states:DescribeExecution"
+        - "states:StartExecution"
+      Resource: "*"
+    - Effect: "Allow"
+      Action:
+        - "dynamodb:PutItem"
+      Resource: "arn:aws:dynamodb:us-east-1:*:table/Users"
+
+plugins:
+  - serverless-step-functions
+  - serverless-offline
+
+functions:
+  registerUser:
+    handler: handler.registerUser
+    events:
+      - http:
+          path: register
+          method: post
+          cors: true
+
+  firstFunction:
+    handler: handler.firstFunction
+
+  secondFunction:
+    handler: handler.secondFunction
+
+  getExecutionStatus:
+    handler: handler.getExecutionStatus
+    events:
+      - http:
+          path: status
+          method: get
+
+  primeraDespuesDelRegistro:
+    handler: handler.primeraDespuesDelRegistro
+
+  segundaDespuesDelRegistro:
+    handler: handler.segundaDespuesDelRegistro
+
+  startStateMachine:
+    handler: handler.startStateMachine
+    events:
+      - http:
+          path: start
+          method: post
+
+stepFunctions:
+  stateMachines:
+    userRegistrationFlow:
+      definition:
+        Comment: "Step Function que se ejecuta después del registro de usuario"
+        StartAt: PrimeraDespuesDelRegistro
+        States:
+          PrimeraDespuesDelRegistro:
+            Type: Task
+            Resource:
+              Fn::GetAtt: [primeraDespuesDelRegistro, Arn]
+            Next: SegundaDespuesDelRegistro
+
+          SegundaDespuesDelRegistro:
+            Type: Task
+            Resource:
+              Fn::GetAtt: [segundaDespuesDelRegistro, Arn]
+            End: true
+
+    myStateMachine:
+      definition:
+        Comment: "Ejemplo de Step Function con API Gateway"
+        StartAt: FirstStep
+        States:
+          FirstStep:
+            Type: Task
+            Resource:
+              Fn::GetAtt: [firstFunction, Arn]
+            Next: SecondStep
+
+          SecondStep:
+            Type: Task
+            Resource:
+              Fn::GetAtt: [secondFunction, Arn]
+            End: true
+
+    updatePriceLists:
+      name: UpdatePriceListsStateMachine
+      definition:
+        Comment: "State machine to update price lists."
+        StartAt: getPriceListsBC
+        States:
+          getPriceListsBC:
+            Type: Task
+            Resource: "arn:aws:states:::lambda:invoke"
+            OutputPath: "$.Payload.body.data"
+            Parameters:
+              FunctionName: "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getPriceListsBC:$LATEST"
+              Payload:
+                limit: "1000"
+            Retry:
+              - ErrorEquals: ["States.ALL"]
+                IntervalSeconds: 6
+                MaxAttempts: 6
+                BackoffRate: 2
+            Next: IteratePriceLists
+
+          IteratePriceLists:
+            Type: Map
+            ItemProcessor:
+              ProcessorConfig:
+                Mode: "INLINE"
+              StartAt: getPricesByCustomersAssa
+              States:
+                getPricesByCustomersAssa:
+                  Type: Task
+                  Resource: "arn:aws:states:::lambda:invoke"
+                  Parameters:
+                    Payload.$: "$"
+                    FunctionName: "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getPricesByCustomersAssa:$LATEST"
+                  Retry:
+                    - ErrorEquals: ["States.ALL"]
+                      IntervalSeconds: 6
+                      MaxAttempts: 6
+                      BackoffRate: 2
+                  OutputPath: "$.Payload.body"
+                  End: true
+            End: true
+            ItemSelector:
+              billTo.$: "$$.Map.Item.Value.billTo"
+              price_list_id.$: "$$.Map.Item.Value.price_list_id"
+            ResultSelector: {}
+            MaxConcurrency: 1
