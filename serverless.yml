@@ -56,6 +56,36 @@ functions:
           path: start
           method: post
 
+  getPriceListsBC:
+    handler: handler.getPriceListsBC
+
+  getPricesByCustomersAssa:
+    handler: handler.getPricesByCustomersAssa
+
+  getOrderBC:
+    handler: handler.getOrderBC
+
+  getProductsBC:
+    handler: handler.getProductsBC
+
+  getOrderB2B:
+    handler: handler.getOrderB2B
+
+  getBillToB2B:
+    handler: handler.getBillToB2B
+
+  getCustomerMessage:
+    handler: handler.getCustomerMessage
+
+  createOrder:
+    handler: handler.createOrder
+
+  cancelOrder:
+    handler: handler.cancelOrder
+
+  getAlmacen:
+    handler: handler.GetAlmacen
+
 stepFunctions:
   stateMachines:
     userRegistrationFlow:
@@ -100,10 +130,10 @@ stepFunctions:
         States:
           getPriceListsBC:
             Type: Task
-            Resource: "arn:aws:states:::lambda:invoke"
+            Resource:
+              Fn::GetAtt: [getPriceListsBC, Arn]
             OutputPath: "$.Payload.body.data"
             Parameters:
-              FunctionName: "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getPriceListsBC:$LATEST"
               Payload:
                 limit: "1000"
             Retry:
@@ -122,10 +152,10 @@ stepFunctions:
               States:
                 getPricesByCustomersAssa:
                   Type: Task
-                  Resource: "arn:aws:states:::lambda:invoke"
+                  Resource:
+                    Fn::GetAtt: [getPricesByCustomersAssa, Arn]
                   Parameters:
                     Payload.$: "$"
-                    FunctionName: "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getPricesByCustomersAssa:$LATEST"
                   Retry:
                     - ErrorEquals: ["States.ALL"]
                       IntervalSeconds: 6
@@ -153,11 +183,9 @@ stepFunctions:
 
           GetOrderBC:
             Type: Task
-            Resource: "arn:aws:states:::lambda:invoke"
+            Resource:
+              Fn::GetAtt: [getOrderBC, Arn]
             OutputPath: "$.Payload"
-            Parameters:
-              Payload.$: "$"
-              FunctionName: "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetOrderBC:$LATEST"
             Retry:
               - ErrorEquals:
                   - "Lambda.ServiceException"
@@ -176,10 +204,8 @@ stepFunctions:
                 States:
                   GetProductsBC:
                     Type: Task
-                    Resource: "arn:aws:states:::lambda:invoke"
-                    Parameters:
-                      Payload.$: "$"
-                      FunctionName: "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetProducts:$LATEST"
+                    Resource:
+                      Fn::GetAtt: [getProductsBC, Arn]
                     Retry:
                       - ErrorEquals: ["States.ALL"]
                         IntervalSeconds: 6
@@ -196,11 +222,9 @@ stepFunctions:
                       States:
                         GetAlmacen:
                           Type: Task
-                          Resource: "arn:aws:states:::lambda:invoke"
+                          Resource:
+                            Fn::GetAtt: [getAlmacen, Arn]
                           OutputPath: "$.Payload"
-                          Parameters:
-                            Payload.$: "$"
-                            FunctionName: "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetAlmacen:$LATEST"
                           Retry:
                             - ErrorEquals: ["States.ALL"]
                               IntervalSeconds: 6
@@ -224,11 +248,9 @@ stepFunctions:
 
                   GetOrderB2B:
                     Type: Task
-                    Resource: "arn:aws:states:::lambda:invoke"
+                    Resource:
+                      Fn::GetAtt: [getOrderB2B, Arn]
                     OutputPath: "$.Payload"
-                    Parameters:
-                      Payload.$: "$"
-                      FunctionName: "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetOrderB2B:$LATEST"
                     Retry:
                       - ErrorEquals: ["States.ALL"]
                         IntervalSeconds: 6
@@ -238,11 +260,9 @@ stepFunctions:
 
                   GetBillTo:
                     Type: Task
-                    Resource: "arn:aws:states:::lambda:invoke"
+                    Resource:
+                      Fn::GetAtt: [getBillToB2B, Arn]
                     OutputPath: "$.Payload"
-                    Parameters:
-                      Payload.$: "$"
-                      FunctionName: "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetBillToB2B:$LATEST"
                     Retry:
                       - ErrorEquals: ["States.ALL"]
                         IntervalSeconds: 6
@@ -254,11 +274,9 @@ stepFunctions:
                 States:
                   GetCustomerMessage:
                     Type: Task
-                    Resource: "arn:aws:states:::lambda:invoke"
+                    Resource:
+                      Fn::GetAtt: [getCustomerMessage, Arn]
                     OutputPath: "$.Payload"
-                    Parameters:
-                      Payload.$: "$"
-                      FunctionName: "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetCustomerMessage:$LATEST"
                     Retry:
                       - ErrorEquals: ["States.ALL"]
                         IntervalSeconds: 6
@@ -269,11 +287,9 @@ stepFunctions:
 
           createOrder:
             Type: Task
-            Resource: "arn:aws:states:::lambda:invoke"
+            Resource:
+              Fn::GetAtt: [createOrder, Arn]
             OutputPath: "$.Payload"
-            Parameters:
-              Payload.$: "$"
-              FunctionName: "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFcreateOrder:$LATEST"
             Retry:
               - ErrorEquals: ["States.ALL"]
                 IntervalSeconds: 6
@@ -295,11 +311,9 @@ stepFunctions:
 
           CancelOrder:
             Type: Task
-            Resource: "arn:aws:states:::lambda:invoke"
+            Resource:
+              Fn::GetAtt: [cancelOrder, Arn]
             OutputPath: "$.Payload"
-            Parameters:
-              Payload.$: "$"
-              FunctionName: "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFcancelarOrden:$LATEST"
             Retry:
               - ErrorEquals: ["States.ALL"]
                 IntervalSeconds: 6
