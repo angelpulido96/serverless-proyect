@@ -93,7 +93,7 @@ stepFunctions:
             End: true
 
     updatePriceLists:
-      name: UpdatePriceListsStateMachine
+      name: UpdatePriceListsBC
       definition:
         Comment: "State machine to update price lists."
         StartAt: getPriceListsBC
