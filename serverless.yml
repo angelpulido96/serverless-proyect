@@ -139,3 +139,179 @@ stepFunctions:
               price_list_id.$: "$$.Map.Item.Value.price_list_id"
             ResultSelector: {}
             MaxConcurrency: 1
+
+    CrearOrden2:
+      name: CrearOrden2
+      definition:
+        Comment: "A description of my state machine"
+        StartAt: Wait (1)
+        States:
+          Wait (1):
+            Type: Wait
+            Seconds: 220
+            Next: GetOrderBC
+
+          GetOrderBC:
+            Type: Task
+            Resource: "arn:aws:states:::lambda:invoke"
+            OutputPath: "$.Payload"
+            Parameters:
+              Payload.$: "$"
+              FunctionName: "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetOrderBC:$LATEST"
+            Retry:
+              - ErrorEquals:
+                  - "Lambda.ServiceException"
+                  - "Lambda.AWSLambdaException"
+                  - "Lambda.SdkClientException"
+                  - "Lambda.TooManyRequestsException"
+                IntervalSeconds: 1
+                MaxAttempts: 3
+                BackoffRate: 2
+            Next: Parallel
+
+          Parallel:
+            Type: Parallel
+            Branches:
+              - StartAt: GetProductsBC
+                States:
+                  GetProductsBC:
+                    Type: Task
+                    Resource: "arn:aws:states:::lambda:invoke"
+                    Parameters:
+                      Payload.$: "$"
+                      FunctionName: "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetProducts:$LATEST"
+                    Retry:
+                      - ErrorEquals: ["States.ALL"]
+                        IntervalSeconds: 6
+                        MaxAttempts: 6
+                        BackoffRate: 2
+                    Next: Map
+                    OutputPath: "$.Payload"
+
+                  Map:
+                    Type: Map
+                    End: true
+                    Iterator:
+                      StartAt: GetAlmacen
+                      States:
+                        GetAlmacen:
+                          Type: Task
+                          Resource: "arn:aws:states:::lambda:invoke"
+                          OutputPath: "$.Payload"
+                          Parameters:
+                            Payload.$: "$"
+                            FunctionName: "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetAlmacen:$LATEST"
+                          Retry:
+                            - ErrorEquals: ["States.ALL"]
+                              IntervalSeconds: 6
+                              MaxAttempts: 6
+                              BackoffRate: 2
+                          End: true
+                    ItemsPath: "$.body"
+                    MaxConcurrency: 10
+                    Retry:
+                      - ErrorEquals: ["States.ALL"]
+                        BackoffRate: 1
+                        IntervalSeconds: 6
+                        MaxAttempts: 6
+
+              - StartAt: Wait
+                States:
+                  Wait:
+                    Type: Wait
+                    Seconds: 25
+                    Next: GetOrderB2B
+
+                  GetOrderB2B:
+                    Type: Task
+                    Resource: "arn:aws:states:::lambda:invoke"
+                    OutputPath: "$.Payload"
+                    Parameters:
+                      Payload.$: "$"
+                      FunctionName: "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetOrderB2B:$LATEST"
+                    Retry:
+                      - ErrorEquals: ["States.ALL"]
+                        IntervalSeconds: 6
+                        MaxAttempts: 6
+                        BackoffRate: 2
+                    Next: GetBillTo
+
+                  GetBillTo:
+                    Type: Task
+                    Resource: "arn:aws:states:::lambda:invoke"
+                    OutputPath: "$.Payload"
+                    Parameters:
+                      Payload.$: "$"
+                      FunctionName: "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetBillToB2B:$LATEST"
+                    Retry:
+                      - ErrorEquals: ["States.ALL"]
+                        IntervalSeconds: 6
+                        MaxAttempts: 6
+                        BackoffRate: 2
+                    End: true
+
+              - StartAt: GetCustomerMessage
+                States:
+                  GetCustomerMessage:
+                    Type: Task
+                    Resource: "arn:aws:states:::lambda:invoke"
+                    OutputPath: "$.Payload"
+                    Parameters:
+                      Payload.$: "$"
+                      FunctionName: "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetCustomerMessage:$LATEST"
+                    Retry:
+                      - ErrorEquals: ["States.ALL"]
+                        IntervalSeconds: 6
+                        MaxAttempts: 6
+                        BackoffRate: 2
+                    End: true
+            Next: createOrder
+
+          createOrder:
+            Type: Task
+            Resource: "arn:aws:states:::lambda:invoke"
+            OutputPath: "$.Payload"
+            Parameters:
+              Payload.$: "$"
+              FunctionName: "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFcreateOrder:$LATEST"
+            Retry:
+              - ErrorEquals: ["States.ALL"]
+                IntervalSeconds: 6
+                MaxAttempts: 6
+                BackoffRate: 2
+            Next: Error 400
+
+          Error 400:
+            Type: Choice
+            Choices:
+              - Variable: "$.body.status"
+                NumericEquals: 200
+                Next: Orden Creada
+              - Variable: "$.body.status"
+                NumericEquals: 600
+                Comment: "Pedido Duplicado 600"
+                Next: Pedido Duplicado
+            Default: CancelOrder
+
+          CancelOrder:
+            Type: Task
+            Resource: "arn:aws:states:::lambda:invoke"
+            OutputPath: "$.Payload"
+            Parameters:
+              Payload.$: "$"
+              FunctionName: "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFcancelarOrden:$LATEST"
+            Retry:
+              - ErrorEquals: ["States.ALL"]
+                IntervalSeconds: 6
+                MaxAttempts: 6
+                BackoffRate: 2
+            Next: Fail
+
+          Pedido Duplicado:
+            Type: Fail
+
+          Orden Creada:
+            Type: Succeed
+
+          Fail:
+            Type: Fail

@@ -1,7 +1,7 @@
 {
-  "/Users/angelpulido/Desktop/projects/my-serverless-project/serverless.yml": {
+  "/Users/angelpulido/Desktop/projects/serverless-proyect/serverless.yml": {
     "versionFramework": "4.6.3",
-    "servicePath": "/Users/angelpulido/Desktop/projects/my-serverless-project/serverless.yml",
+    "servicePath": "/Users/angelpulido/Desktop/projects/serverless-proyect/serverless.yml",
     "serviceConfigFileName": "serverless.yml",
     "service": {
       "service": "my-serverless-step-functions",
@@ -173,7 +173,7 @@
               "Properties": {
                 "Code": {
                   "S3Bucket": "serverless-framework-deployments-us-east-1-cc71c788-7df0",
-                  "S3Key": "serverless/my-serverless-step-functions/dev/1739840635943-2025-02-18T01:03:55.943Z/my-serverless-step-functions.zip"
+                  "S3Key": "serverless/my-serverless-step-functions/dev/1739845260442-2025-02-18T02:21:00.442Z/my-serverless-step-functions.zip"
                 },
                 "Handler": "handler.registerUser",
                 "Runtime": "nodejs18.x",
@@ -196,7 +196,7 @@
               "Properties": {
                 "Code": {
                   "S3Bucket": "serverless-framework-deployments-us-east-1-cc71c788-7df0",
-                  "S3Key": "serverless/my-serverless-step-functions/dev/1739840635943-2025-02-18T01:03:55.943Z/my-serverless-step-functions.zip"
+                  "S3Key": "serverless/my-serverless-step-functions/dev/1739845260442-2025-02-18T02:21:00.442Z/my-serverless-step-functions.zip"
                 },
                 "Handler": "handler.firstFunction",
                 "Runtime": "nodejs18.x",
@@ -219,7 +219,7 @@
               "Properties": {
                 "Code": {
                   "S3Bucket": "serverless-framework-deployments-us-east-1-cc71c788-7df0",
-                  "S3Key": "serverless/my-serverless-step-functions/dev/1739840635943-2025-02-18T01:03:55.943Z/my-serverless-step-functions.zip"
+                  "S3Key": "serverless/my-serverless-step-functions/dev/1739845260442-2025-02-18T02:21:00.442Z/my-serverless-step-functions.zip"
                 },
                 "Handler": "handler.secondFunction",
                 "Runtime": "nodejs18.x",
@@ -242,7 +242,7 @@
               "Properties": {
                 "Code": {
                   "S3Bucket": "serverless-framework-deployments-us-east-1-cc71c788-7df0",
-                  "S3Key": "serverless/my-serverless-step-functions/dev/1739840635943-2025-02-18T01:03:55.943Z/my-serverless-step-functions.zip"
+                  "S3Key": "serverless/my-serverless-step-functions/dev/1739845260442-2025-02-18T02:21:00.442Z/my-serverless-step-functions.zip"
                 },
                 "Handler": "handler.getExecutionStatus",
                 "Runtime": "nodejs18.x",
@@ -265,7 +265,7 @@
               "Properties": {
                 "Code": {
                   "S3Bucket": "serverless-framework-deployments-us-east-1-cc71c788-7df0",
-                  "S3Key": "serverless/my-serverless-step-functions/dev/1739840635943-2025-02-18T01:03:55.943Z/my-serverless-step-functions.zip"
+                  "S3Key": "serverless/my-serverless-step-functions/dev/1739845260442-2025-02-18T02:21:00.442Z/my-serverless-step-functions.zip"
                 },
                 "Handler": "handler.primeraDespuesDelRegistro",
                 "Runtime": "nodejs18.x",
@@ -288,7 +288,7 @@
               "Properties": {
                 "Code": {
                   "S3Bucket": "serverless-framework-deployments-us-east-1-cc71c788-7df0",
-                  "S3Key": "serverless/my-serverless-step-functions/dev/1739840635943-2025-02-18T01:03:55.943Z/my-serverless-step-functions.zip"
+                  "S3Key": "serverless/my-serverless-step-functions/dev/1739845260442-2025-02-18T02:21:00.442Z/my-serverless-step-functions.zip"
                 },
                 "Handler": "handler.segundaDespuesDelRegistro",
                 "Runtime": "nodejs18.x",
@@ -311,7 +311,7 @@
               "Properties": {
                 "Code": {
                   "S3Bucket": "serverless-framework-deployments-us-east-1-cc71c788-7df0",
-                  "S3Key": "serverless/my-serverless-step-functions/dev/1739840635943-2025-02-18T01:03:55.943Z/my-serverless-step-functions.zip"
+                  "S3Key": "serverless/my-serverless-step-functions/dev/1739845260442-2025-02-18T02:21:00.442Z/my-serverless-step-functions.zip"
                 },
                 "Handler": "handler.startStateMachine",
                 "Runtime": "nodejs18.x",
@@ -329,74 +329,74 @@
                 "StartStateMachineLogGroup"
               ]
             },
-            "RegisterUserLambdaVersionf12hSmlymlyg855uUuvufFSrHDkEHnvv8MQuYt8Eo": {
+            "RegisterUserLambdaVersion5YEn4hrpnkWetckrl2Pcwu2p1g52C3rHX3xQzP7Sz3M": {
               "Type": "AWS::Lambda::Version",
               "DeletionPolicy": "Retain",
               "Properties": {
                 "FunctionName": {
                   "Ref": "RegisterUserLambdaFunction"
                 },
-                "CodeSha256": "QGNdS18S4+NCvzt946FnEnhUYH7J4IWvbd5rN5qViG0="
+                "CodeSha256": "iAYrGYrHkBl2MF5mLwyULXesdBAAnkq6bc6eNNW+mn4="
               }
             },
-            "FirstFunctionLambdaVersionYJJ8LJS3GAQkA91BcDAFwtqsYZH8bwgvA5PRTZb54": {
+            "FirstFunctionLambdaVersionLfO8RJIwSHNwHkzNiHBTT73YuaR2VGpR5sxh4ga493w": {
               "Type": "AWS::Lambda::Version",
               "DeletionPolicy": "Retain",
               "Properties": {
                 "FunctionName": {
                   "Ref": "FirstFunctionLambdaFunction"
                 },
-                "CodeSha256": "QGNdS18S4+NCvzt946FnEnhUYH7J4IWvbd5rN5qViG0="
+                "CodeSha256": "iAYrGYrHkBl2MF5mLwyULXesdBAAnkq6bc6eNNW+mn4="
               }
             },
-            "SecondFunctionLambdaVersionlGireGvuKD421ZT3PLP8Jbsq7GPaHzeQZ7HG3WqY": {
+            "SecondFunctionLambdaVersionZ4xCgNEBqSK1D6uy9NbVDCGW5YDHit2P01GLDFWeAXI": {
               "Type": "AWS::Lambda::Version",
               "DeletionPolicy": "Retain",
               "Properties": {
                 "FunctionName": {
                   "Ref": "SecondFunctionLambdaFunction"
                 },
-                "CodeSha256": "QGNdS18S4+NCvzt946FnEnhUYH7J4IWvbd5rN5qViG0="
+                "CodeSha256": "iAYrGYrHkBl2MF5mLwyULXesdBAAnkq6bc6eNNW+mn4="
               }
             },
-            "GetExecutionStatusLambdaVersionAaji1pq4mU66BQEFtkt3mazbsAGPnQ3V328lCOcdg": {
+            "GetExecutionStatusLambdaVersionMGzMpqxyN6krKS2ZimdsouEjWaw0tH3nIBXuizHg": {
               "Type": "AWS::Lambda::Version",
               "DeletionPolicy": "Retain",
               "Properties": {
                 "FunctionName": {
                   "Ref": "GetExecutionStatusLambdaFunction"
                 },
-                "CodeSha256": "QGNdS18S4+NCvzt946FnEnhUYH7J4IWvbd5rN5qViG0="
+                "CodeSha256": "iAYrGYrHkBl2MF5mLwyULXesdBAAnkq6bc6eNNW+mn4="
               }
             },
-            "PrimeraDespuesDelRegistroLambdaVersiono0mN7TLsn3xRdJvn8t8pSdT3uMTEyLIZ4aphptE3WM8": {
+            "PrimeraDespuesDelRegistroLambdaVersionhf5Mdmnlr2mFV1lu687JnxzHsqyQwR9ucKV0gJCT780": {
               "Type": "AWS::Lambda::Version",
               "DeletionPolicy": "Retain",
               "Properties": {
                 "FunctionName": {
                   "Ref": "PrimeraDespuesDelRegistroLambdaFunction"
                 },
-                "CodeSha256": "QGNdS18S4+NCvzt946FnEnhUYH7J4IWvbd5rN5qViG0="
+                "CodeSha256": "iAYrGYrHkBl2MF5mLwyULXesdBAAnkq6bc6eNNW+mn4="
               }
             },
-            "SegundaDespuesDelRegistroLambdaVersionN2wo0jqy6pHKyuDTAriM1OqODj29GlLGGuBP6pSnR9U": {
+            "SegundaDespuesDelRegistroLambdaVersionkmAYCOBFvTZL0zWfDwHbPCPorwsdmEbFx4nQMIL4": {
               "Type": "AWS::Lambda::Version",
               "DeletionPolicy": "Retain",
               "Properties": {
                 "FunctionName": {
                   "Ref": "SegundaDespuesDelRegistroLambdaFunction"
                 },
-                "CodeSha256": "QGNdS18S4+NCvzt946FnEnhUYH7J4IWvbd5rN5qViG0="
+                "CodeSha256": "iAYrGYrHkBl2MF5mLwyULXesdBAAnkq6bc6eNNW+mn4="
               }
             },
-            "StartStateMachineLambdaVersionM9T1btpiPY4EU4RvXbATbPLRoaq5NKxShR8ePE9U": {
+            "StartStateMachineLambdaVersion6IX2SLicGczz62Inb8CZlwZHAgYq5PP3kK5gZBa9T8": {
               "Type": "AWS::Lambda::Version",
               "DeletionPolicy": "Retain",
               "Properties": {
                 "FunctionName": {
                   "Ref": "StartStateMachineLambdaFunction"
                 },
-                "CodeSha256": "QGNdS18S4+NCvzt946FnEnhUYH7J4IWvbd5rN5qViG0="
+                "CodeSha256": "iAYrGYrHkBl2MF5mLwyULXesdBAAnkq6bc6eNNW+mn4="
               }
             },
             "UserRegistrationFlowStepFunctionsStateMachineRole": {
@@ -549,7 +549,48 @@
                 ]
               }
             },
-            "CrearOrden2StepFunctionsStateMachineRole": {
+            "UpdatePriceListsBCRole": {
+              "Type": "AWS::IAM::Role",
+              "Properties": {
+                "AssumeRolePolicyDocument": {
+                  "Version": "2012-10-17",
+                  "Statement": [
+                    {
+                      "Effect": "Allow",
+                      "Principal": {
+                        "Service": {
+                          "Fn::Sub": "states.${AWS::Region}.amazonaws.com"
+                        }
+                      },
+                      "Action": "sts:AssumeRole"
+                    }
+                  ]
+                },
+                "Policies": [
+                  {
+                    "PolicyName": "dev-my-serverless-step-functions-statemachine",
+                    "PolicyDocument": {
+                      "Version": "2012-10-17",
+                      "Statement": [
+                        {
+                          "Effect": "Allow",
+                          "Action": [
+                            "lambda:InvokeFunction"
+                          ],
+                          "Resource": [
+                            "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getPriceListsBC:$LATEST",
+                            "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getPriceListsBC:$LATEST:*",
+                            "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getPricesByCustomersAssa:$LATEST",
+                            "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getPricesByCustomersAssa:$LATEST:*"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "CrearOrden2Role": {
               "Type": "AWS::IAM::Role",
               "Properties": {
                 "AssumeRolePolicyDocument": {
@@ -582,6 +623,12 @@
                             "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetOrderBC:$LATEST:*",
                             "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetProducts:$LATEST",
                             "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetProducts:$LATEST:*",
+                            "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetAlmacen:$LATEST",
+                            "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetAlmacen:$LATEST:*",
+                            "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetOrderB2B:$LATEST",
+                            "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetOrderB2B:$LATEST:*",
+                            "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetBillToB2B:$LATEST",
+                            "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetBillToB2B:$LATEST:*",
                             "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetCustomerMessage:$LATEST",
                             "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetCustomerMessage:$LATEST:*",
                             "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFcreateOrder:$LATEST",
@@ -662,19 +709,36 @@
                 "MyStateMachineStepFunctionsStateMachineRole"
               ]
             },
-            "CrearOrden2StepFunctionsStateMachine": {
+            "UpdatePriceListsBC": {
               "Type": "AWS::StepFunctions::StateMachine",
               "Properties": {
-                "DefinitionString": "{\n  \"Comment\": \"A description of my state machine\",\n  \"StartAt\": \"Wait (1)\",\n  \"States\": {\n    \"Wait (1)\": {\n      \"Type\": \"Wait\",\n      \"Seconds\": 220,\n      \"Next\": \"GetOrderBC\"\n    },\n    \"GetOrderBC\": {\n      \"Type\": \"Task\",\n      \"Resource\": \"arn:aws:states:::lambda:invoke\",\n      \"OutputPath\": \"$.Payload\",\n      \"Parameters\": {\n        \"Payload.$\": \"$\",\n        \"FunctionName\": \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetOrderBC:$LATEST\"\n      },\n      \"Retry\": [\n        {\n          \"ErrorEquals\": [\n            \"Lambda.ServiceException\",\n            \"Lambda.AWSLambdaException\",\n            \"Lambda.SdkClientException\",\n            \"Lambda.TooManyRequestsException\"\n          ],\n          \"IntervalSeconds\": 1,\n          \"MaxAttempts\": 3,\n          \"BackoffRate\": 2\n        }\n      ],\n      \"Next\": \"Parallel\"\n    },\n    \"Parallel\": {\n      \"Type\": \"Parallel\",\n      \"Branches\": [\n        {\n          \"StartAt\": \"GetProductsBC\",\n          \"States\": {\n            \"GetProductsBC\": {\n              \"Type\": \"Task\",\n              \"Resource\": \"arn:aws:states:::lambda:invoke\",\n              \"Parameters\": {\n                \"Payload.$\": \"$\",\n                \"FunctionName\": \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetProducts:$LATEST\"\n              },\n              \"Retry\": [\n                {\n                  \"ErrorEquals\": [\n                    \"States.ALL\"\n                  ],\n                  \"IntervalSeconds\": 6,\n                  \"MaxAttempts\": 6,\n                  \"BackoffRate\": 2\n                }\n              ],\n              \"Next\": \"createOrder\",\n              \"OutputPath\": \"$.Payload\"\n            }\n          }\n        },\n        {\n          \"StartAt\": \"GetCustomerMessage\",\n          \"States\": {\n            \"GetCustomerMessage\": {\n              \"Type\": \"Task\",\n              \"Resource\": \"arn:aws:states:::lambda:invoke\",\n              \"OutputPath\": \"$.Payload\",\n              \"Parameters\": {\n                \"Payload.$\": \"$\",\n                \"FunctionName\": \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetCustomerMessage:$LATEST\"\n              },\n              \"Retry\": [\n                {\n                  \"ErrorEquals\": [\n                    \"States.ALL\"\n                  ],\n                  \"IntervalSeconds\": 6,\n                  \"MaxAttempts\": 6,\n                  \"BackoffRate\": 2\n                }\n              ],\n              \"End\": true\n            }\n          }\n        }\n      ],\n      \"Next\": \"createOrder\"\n    },\n    \"createOrder\": {\n      \"Type\": \"Task\",\n      \"Resource\": \"arn:aws:states:::lambda:invoke\",\n      \"OutputPath\": \"$.Payload\",\n      \"Parameters\": {\n        \"Payload.$\": \"$\",\n        \"FunctionName\": \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFcreateOrder:$LATEST\"\n      },\n      \"Retry\": [\n        {\n          \"ErrorEquals\": [\n            \"States.ALL\"\n          ],\n          \"IntervalSeconds\": 6,\n          \"MaxAttempts\": 6,\n          \"BackoffRate\": 2\n        }\n      ],\n      \"Next\": \"Error 400\"\n    },\n    \"Error 400\": {\n      \"Type\": \"Choice\",\n      \"Choices\": [\n        {\n          \"Variable\": \"$.body.status\",\n          \"NumericEquals\": 200,\n          \"Next\": \"Orden Creada\"\n        },\n        {\n          \"Variable\": \"$.body.status\",\n          \"NumericEquals\": 600,\n          \"Comment\": \"Pedido Duplicado 600\",\n          \"Next\": \"Pedido Duplicado\"\n        }\n      ],\n      \"Default\": \"CancelOrder\"\n    },\n    \"CancelOrder\": {\n      \"Type\": \"Task\",\n      \"Resource\": \"arn:aws:states:::lambda:invoke\",\n      \"OutputPath\": \"$.Payload\",\n      \"Parameters\": {\n        \"Payload.$\": \"$\",\n        \"FunctionName\": \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFcancelarOrden:$LATEST\"\n      },\n      \"Retry\": [\n        {\n          \"ErrorEquals\": [\n            \"States.ALL\"\n          ],\n          \"IntervalSeconds\": 6,\n          \"MaxAttempts\": 6,\n          \"BackoffRate\": 2\n        }\n      ],\n      \"Next\": \"Fail\"\n    },\n    \"Pedido Duplicado\": {\n      \"Type\": \"Fail\"\n    },\n    \"Orden Creada\": {\n      \"Type\": \"Succeed\"\n    },\n    \"Fail\": {\n      \"Type\": \"Fail\"\n    }\n  }\n}",
+                "DefinitionString": "{\n  \"Comment\": \"State machine to update price lists.\",\n  \"StartAt\": \"getPriceListsBC\",\n  \"States\": {\n    \"getPriceListsBC\": {\n      \"Type\": \"Task\",\n      \"Resource\": \"arn:aws:states:::lambda:invoke\",\n      \"OutputPath\": \"$.Payload.body.data\",\n      \"Parameters\": {\n        \"FunctionName\": \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getPriceListsBC:$LATEST\",\n        \"Payload\": {\n          \"limit\": \"1000\"\n        }\n      },\n      \"Retry\": [\n        {\n          \"ErrorEquals\": [\n            \"States.ALL\"\n          ],\n          \"IntervalSeconds\": 6,\n          \"MaxAttempts\": 6,\n          \"BackoffRate\": 2\n        }\n      ],\n      \"Next\": \"IteratePriceLists\"\n    },\n    \"IteratePriceLists\": {\n      \"Type\": \"Map\",\n      \"ItemProcessor\": {\n        \"ProcessorConfig\": {\n          \"Mode\": \"INLINE\"\n        },\n        \"StartAt\": \"getPricesByCustomersAssa\",\n        \"States\": {\n          \"getPricesByCustomersAssa\": {\n            \"Type\": \"Task\",\n            \"Resource\": \"arn:aws:states:::lambda:invoke\",\n            \"Parameters\": {\n              \"Payload.$\": \"$\",\n              \"FunctionName\": \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getPricesByCustomersAssa:$LATEST\"\n            },\n            \"Retry\": [\n              {\n                \"ErrorEquals\": [\n                  \"States.ALL\"\n                ],\n                \"IntervalSeconds\": 6,\n                \"MaxAttempts\": 6,\n                \"BackoffRate\": 2\n              }\n            ],\n            \"OutputPath\": \"$.Payload.body\",\n            \"End\": true\n          }\n        }\n      },\n      \"End\": true,\n      \"ItemSelector\": {\n        \"billTo.$\": \"$$.Map.Item.Value.billTo\",\n        \"price_list_id.$\": \"$$.Map.Item.Value.price_list_id\"\n      },\n      \"ResultSelector\": {},\n      \"MaxConcurrency\": 1\n    }\n  }\n}",
                 "RoleArn": {
                   "Fn::GetAtt": [
-                    "CrearOrden2StepFunctionsStateMachineRole",
+                    "UpdatePriceListsBCRole",
                     "Arn"
                   ]
-                }
+                },
+                "StateMachineName": "UpdatePriceListsBC"
               },
               "DependsOn": [
-                "CrearOrden2StepFunctionsStateMachineRole"
+                "UpdatePriceListsBCRole"
+              ]
+            },
+            "CrearOrden2": {
+              "Type": "AWS::StepFunctions::StateMachine",
+              "Properties": {
+                "DefinitionString": "{\n  \"Comment\": \"A description of my state machine\",\n  \"StartAt\": \"Wait (1)\",\n  \"States\": {\n    \"Wait (1)\": {\n      \"Type\": \"Wait\",\n      \"Seconds\": 220,\n      \"Next\": \"GetOrderBC\"\n    },\n    \"GetOrderBC\": {\n      \"Type\": \"Task\",\n      \"Resource\": \"arn:aws:states:::lambda:invoke\",\n      \"OutputPath\": \"$.Payload\",\n      \"Parameters\": {\n        \"Payload.$\": \"$\",\n        \"FunctionName\": \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetOrderBC:$LATEST\"\n      },\n      \"Retry\": [\n        {\n          \"ErrorEquals\": [\n            \"Lambda.ServiceException\",\n            \"Lambda.AWSLambdaException\",\n            \"Lambda.SdkClientException\",\n            \"Lambda.TooManyRequestsException\"\n          ],\n          \"IntervalSeconds\": 1,\n          \"MaxAttempts\": 3,\n          \"BackoffRate\": 2\n        }\n      ],\n      \"Next\": \"Parallel\"\n    },\n    \"Parallel\": {\n      \"Type\": \"Parallel\",\n      \"Branches\": [\n        {\n          \"StartAt\": \"GetProductsBC\",\n          \"States\": {\n            \"GetProductsBC\": {\n              \"Type\": \"Task\",\n              \"Resource\": \"arn:aws:states:::lambda:invoke\",\n              \"Parameters\": {\n                \"Payload.$\": \"$\",\n                \"FunctionName\": \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetProducts:$LATEST\"\n              },\n              \"Retry\": [\n                {\n                  \"ErrorEquals\": [\n                    \"States.ALL\"\n                  ],\n                  \"IntervalSeconds\": 6,\n                  \"MaxAttempts\": 6,\n                  \"BackoffRate\": 2\n                }\n              ],\n              \"Next\": \"Map\",\n              \"OutputPath\": \"$.Payload\"\n            },\n            \"Map\": {\n              \"Type\": \"Map\",\n              \"End\": true,\n              \"Iterator\": {\n                \"StartAt\": \"GetAlmacen\",\n                \"States\": {\n                  \"GetAlmacen\": {\n                    \"Type\": \"Task\",\n                    \"Resource\": \"arn:aws:states:::lambda:invoke\",\n                    \"OutputPath\": \"$.Payload\",\n                    \"Parameters\": {\n                      \"Payload.$\": \"$\",\n                      \"FunctionName\": \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetAlmacen:$LATEST\"\n                    },\n                    \"Retry\": [\n                      {\n                        \"ErrorEquals\": [\n                          \"States.ALL\"\n                        ],\n                        \"IntervalSeconds\": 6,\n                        \"MaxAttempts\": 6,\n                        \"BackoffRate\": 2\n                      }\n                    ],\n                    \"End\": true\n                  }\n                }\n              },\n              \"ItemsPath\": \"$.body\",\n              \"MaxConcurrency\": 10,\n              \"Retry\": [\n                {\n                  \"ErrorEquals\": [\n                    \"States.ALL\"\n                  ],\n                  \"BackoffRate\": 1,\n                  \"IntervalSeconds\": 6,\n                  \"MaxAttempts\": 6\n                }\n              ]\n            }\n          }\n        },\n        {\n          \"StartAt\": \"Wait\",\n          \"States\": {\n            \"Wait\": {\n              \"Type\": \"Wait\",\n              \"Seconds\": 25,\n              \"Next\": \"GetOrderB2B\"\n            },\n            \"GetOrderB2B\": {\n              \"Type\": \"Task\",\n              \"Resource\": \"arn:aws:states:::lambda:invoke\",\n              \"OutputPath\": \"$.Payload\",\n              \"Parameters\": {\n                \"Payload.$\": \"$\",\n                \"FunctionName\": \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetOrderB2B:$LATEST\"\n              },\n              \"Retry\": [\n                {\n                  \"ErrorEquals\": [\n                    \"States.ALL\"\n                  ],\n                  \"IntervalSeconds\": 6,\n                  \"MaxAttempts\": 6,\n                  \"BackoffRate\": 2\n                }\n              ],\n              \"Next\": \"GetBillTo\"\n            },\n            \"GetBillTo\": {\n              \"Type\": \"Task\",\n              \"Resource\": \"arn:aws:states:::lambda:invoke\",\n              \"OutputPath\": \"$.Payload\",\n              \"Parameters\": {\n                \"Payload.$\": \"$\",\n                \"FunctionName\": \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetBillToB2B:$LATEST\"\n              },\n              \"Retry\": [\n                {\n                  \"ErrorEquals\": [\n                    \"States.ALL\"\n                  ],\n                  \"IntervalSeconds\": 6,\n                  \"MaxAttempts\": 6,\n                  \"BackoffRate\": 2\n                }\n              ],\n              \"End\": true\n            }\n          }\n        },\n        {\n          \"StartAt\": \"GetCustomerMessage\",\n          \"States\": {\n            \"GetCustomerMessage\": {\n              \"Type\": \"Task\",\n              \"Resource\": \"arn:aws:states:::lambda:invoke\",\n              \"OutputPath\": \"$.Payload\",\n              \"Parameters\": {\n                \"Payload.$\": \"$\",\n                \"FunctionName\": \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetCustomerMessage:$LATEST\"\n              },\n              \"Retry\": [\n                {\n                  \"ErrorEquals\": [\n                    \"States.ALL\"\n                  ],\n                  \"IntervalSeconds\": 6,\n                  \"MaxAttempts\": 6,\n                  \"BackoffRate\": 2\n                }\n              ],\n              \"End\": true\n            }\n          }\n        }\n      ],\n      \"Next\": \"createOrder\"\n    },\n    \"createOrder\": {\n      \"Type\": \"Task\",\n      \"Resource\": \"arn:aws:states:::lambda:invoke\",\n      \"OutputPath\": \"$.Payload\",\n      \"Parameters\": {\n        \"Payload.$\": \"$\",\n        \"FunctionName\": \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFcreateOrder:$LATEST\"\n      },\n      \"Retry\": [\n        {\n          \"ErrorEquals\": [\n            \"States.ALL\"\n          ],\n          \"IntervalSeconds\": 6,\n          \"MaxAttempts\": 6,\n          \"BackoffRate\": 2\n        }\n      ],\n      \"Next\": \"Error 400\"\n    },\n    \"Error 400\": {\n      \"Type\": \"Choice\",\n      \"Choices\": [\n        {\n          \"Variable\": \"$.body.status\",\n          \"NumericEquals\": 200,\n          \"Next\": \"Orden Creada\"\n        },\n        {\n          \"Variable\": \"$.body.status\",\n          \"NumericEquals\": 600,\n          \"Comment\": \"Pedido Duplicado 600\",\n          \"Next\": \"Pedido Duplicado\"\n        }\n      ],\n      \"Default\": \"CancelOrder\"\n    },\n    \"CancelOrder\": {\n      \"Type\": \"Task\",\n      \"Resource\": \"arn:aws:states:::lambda:invoke\",\n      \"OutputPath\": \"$.Payload\",\n      \"Parameters\": {\n        \"Payload.$\": \"$\",\n        \"FunctionName\": \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFcancelarOrden:$LATEST\"\n      },\n      \"Retry\": [\n        {\n          \"ErrorEquals\": [\n            \"States.ALL\"\n          ],\n          \"IntervalSeconds\": 6,\n          \"MaxAttempts\": 6,\n          \"BackoffRate\": 2\n        }\n      ],\n      \"Next\": \"Fail\"\n    },\n    \"Pedido Duplicado\": {\n      \"Type\": \"Fail\"\n    },\n    \"Orden Creada\": {\n      \"Type\": \"Succeed\"\n    },\n    \"Fail\": {\n      \"Type\": \"Fail\"\n    }\n  }\n}",
+                "RoleArn": {
+                  "Fn::GetAtt": [
+                    "CrearOrden2Role",
+                    "Arn"
+                  ]
+                },
+                "StateMachineName": "CrearOrden2"
+              },
+              "DependsOn": [
+                "CrearOrden2Role"
               ]
             },
             "ApiGatewayRestApi": {
@@ -917,7 +981,7 @@
                 "StartStateMachineLambdaPermissionApiGateway"
               ]
             },
-            "ApiGatewayDeployment1739840627317": {
+            "ApiGatewayDeployment1739845251641": {
               "Type": "AWS::ApiGateway::Deployment",
               "Properties": {
                 "RestApiId": {
@@ -1054,7 +1118,7 @@
             "RegisterUserLambdaFunctionQualifiedArn": {
               "Description": "Current Lambda function version",
               "Value": {
-                "Ref": "RegisterUserLambdaVersionf12hSmlymlyg855uUuvufFSrHDkEHnvv8MQuYt8Eo"
+                "Ref": "RegisterUserLambdaVersion5YEn4hrpnkWetckrl2Pcwu2p1g52C3rHX3xQzP7Sz3M"
               },
               "Export": {
                 "Name": "sls-my-serverless-step-functions-dev-RegisterUserLambdaFunctionQualifiedArn"
@@ -1063,7 +1127,7 @@
             "FirstFunctionLambdaFunctionQualifiedArn": {
               "Description": "Current Lambda function version",
               "Value": {
-                "Ref": "FirstFunctionLambdaVersionYJJ8LJS3GAQkA91BcDAFwtqsYZH8bwgvA5PRTZb54"
+                "Ref": "FirstFunctionLambdaVersionLfO8RJIwSHNwHkzNiHBTT73YuaR2VGpR5sxh4ga493w"
               },
               "Export": {
                 "Name": "sls-my-serverless-step-functions-dev-FirstFunctionLambdaFunctionQualifiedArn"
@@ -1072,7 +1136,7 @@
             "SecondFunctionLambdaFunctionQualifiedArn": {
               "Description": "Current Lambda function version",
               "Value": {
-                "Ref": "SecondFunctionLambdaVersionlGireGvuKD421ZT3PLP8Jbsq7GPaHzeQZ7HG3WqY"
+                "Ref": "SecondFunctionLambdaVersionZ4xCgNEBqSK1D6uy9NbVDCGW5YDHit2P01GLDFWeAXI"
               },
               "Export": {
                 "Name": "sls-my-serverless-step-functions-dev-SecondFunctionLambdaFunctionQualifiedArn"
@@ -1081,7 +1145,7 @@
             "GetExecutionStatusLambdaFunctionQualifiedArn": {
               "Description": "Current Lambda function version",
               "Value": {
-                "Ref": "GetExecutionStatusLambdaVersionAaji1pq4mU66BQEFtkt3mazbsAGPnQ3V328lCOcdg"
+                "Ref": "GetExecutionStatusLambdaVersionMGzMpqxyN6krKS2ZimdsouEjWaw0tH3nIBXuizHg"
               },
               "Export": {
                 "Name": "sls-my-serverless-step-functions-dev-GetExecutionStatusLambdaFunctionQualifiedArn"
@@ -1090,7 +1154,7 @@
             "PrimeraDespuesDelRegistroLambdaFunctionQualifiedArn": {
               "Description": "Current Lambda function version",
               "Value": {
-                "Ref": "PrimeraDespuesDelRegistroLambdaVersiono0mN7TLsn3xRdJvn8t8pSdT3uMTEyLIZ4aphptE3WM8"
+                "Ref": "PrimeraDespuesDelRegistroLambdaVersionhf5Mdmnlr2mFV1lu687JnxzHsqyQwR9ucKV0gJCT780"
               },
               "Export": {
                 "Name": "sls-my-serverless-step-functions-dev-PrimeraDespuesDelRegistroLambdaFunctionQualifiedArn"
@@ -1099,7 +1163,7 @@
             "SegundaDespuesDelRegistroLambdaFunctionQualifiedArn": {
               "Description": "Current Lambda function version",
               "Value": {
-                "Ref": "SegundaDespuesDelRegistroLambdaVersionN2wo0jqy6pHKyuDTAriM1OqODj29GlLGGuBP6pSnR9U"
+                "Ref": "SegundaDespuesDelRegistroLambdaVersionkmAYCOBFvTZL0zWfDwHbPCPorwsdmEbFx4nQMIL4"
               },
               "Export": {
                 "Name": "sls-my-serverless-step-functions-dev-SegundaDespuesDelRegistroLambdaFunctionQualifiedArn"
@@ -1108,7 +1172,7 @@
             "StartStateMachineLambdaFunctionQualifiedArn": {
               "Description": "Current Lambda function version",
               "Value": {
-                "Ref": "StartStateMachineLambdaVersionM9T1btpiPY4EU4RvXbATbPLRoaq5NKxShR8ePE9U"
+                "Ref": "StartStateMachineLambdaVersion6IX2SLicGczz62Inb8CZlwZHAgYq5PP3kK5gZBa9T8"
               },
               "Export": {
                 "Name": "sls-my-serverless-step-functions-dev-StartStateMachineLambdaFunctionQualifiedArn"
@@ -1132,13 +1196,22 @@
                 "Name": "sls-my-serverless-step-functions-dev-MyStateMachineStepFunctionsStateMachineArn"
               }
             },
-            "CrearOrden2StepFunctionsStateMachineArn": {
+            "UpdatePriceListsBCArn": {
               "Description": "Current StateMachine Arn",
               "Value": {
-                "Ref": "CrearOrden2StepFunctionsStateMachine"
+                "Ref": "UpdatePriceListsBC"
               },
               "Export": {
-                "Name": "sls-my-serverless-step-functions-dev-CrearOrden2StepFunctionsStateMachineArn"
+                "Name": "sls-my-serverless-step-functions-dev-UpdatePriceListsBCArn"
+              }
+            },
+            "CrearOrden2Arn": {
+              "Description": "Current StateMachine Arn",
+              "Value": {
+                "Ref": "CrearOrden2"
+              },
+              "Export": {
+                "Name": "sls-my-serverless-step-functions-dev-CrearOrden2Arn"
               }
             },
             "ServiceEndpoint": {
@@ -1210,7 +1283,7 @@
           "timeout": 6,
           "runtime": "nodejs18.x",
           "vpc": {},
-          "versionLogicalId": "RegisterUserLambdaVersionf12hSmlymlyg855uUuvufFSrHDkEHnvv8MQuYt8Eo"
+          "versionLogicalId": "RegisterUserLambdaVersion5YEn4hrpnkWetckrl2Pcwu2p1g52C3rHX3xQzP7Sz3M"
         },
         "firstFunction": {
           "handler": "handler.firstFunction",
@@ -1221,7 +1294,7 @@
           "timeout": 6,
           "runtime": "nodejs18.x",
           "vpc": {},
-          "versionLogicalId": "FirstFunctionLambdaVersionYJJ8LJS3GAQkA91BcDAFwtqsYZH8bwgvA5PRTZb54"
+          "versionLogicalId": "FirstFunctionLambdaVersionLfO8RJIwSHNwHkzNiHBTT73YuaR2VGpR5sxh4ga493w"
         },
         "secondFunction": {
           "handler": "handler.secondFunction",
@@ -1232,7 +1305,7 @@
           "timeout": 6,
           "runtime": "nodejs18.x",
           "vpc": {},
-          "versionLogicalId": "SecondFunctionLambdaVersionlGireGvuKD421ZT3PLP8Jbsq7GPaHzeQZ7HG3WqY"
+          "versionLogicalId": "SecondFunctionLambdaVersionZ4xCgNEBqSK1D6uy9NbVDCGW5YDHit2P01GLDFWeAXI"
         },
         "getExecutionStatus": {
           "handler": "handler.getExecutionStatus",
@@ -1251,7 +1324,7 @@
           "timeout": 6,
           "runtime": "nodejs18.x",
           "vpc": {},
-          "versionLogicalId": "GetExecutionStatusLambdaVersionAaji1pq4mU66BQEFtkt3mazbsAGPnQ3V328lCOcdg"
+          "versionLogicalId": "GetExecutionStatusLambdaVersionMGzMpqxyN6krKS2ZimdsouEjWaw0tH3nIBXuizHg"
         },
         "primeraDespuesDelRegistro": {
           "handler": "handler.primeraDespuesDelRegistro",
@@ -1262,7 +1335,7 @@
           "timeout": 6,
           "runtime": "nodejs18.x",
           "vpc": {},
-          "versionLogicalId": "PrimeraDespuesDelRegistroLambdaVersiono0mN7TLsn3xRdJvn8t8pSdT3uMTEyLIZ4aphptE3WM8"
+          "versionLogicalId": "PrimeraDespuesDelRegistroLambdaVersionhf5Mdmnlr2mFV1lu687JnxzHsqyQwR9ucKV0gJCT780"
         },
         "segundaDespuesDelRegistro": {
           "handler": "handler.segundaDespuesDelRegistro",
@@ -1273,7 +1346,7 @@
           "timeout": 6,
           "runtime": "nodejs18.x",
           "vpc": {},
-          "versionLogicalId": "SegundaDespuesDelRegistroLambdaVersionN2wo0jqy6pHKyuDTAriM1OqODj29GlLGGuBP6pSnR9U"
+          "versionLogicalId": "SegundaDespuesDelRegistroLambdaVersionkmAYCOBFvTZL0zWfDwHbPCPorwsdmEbFx4nQMIL4"
         },
         "startStateMachine": {
           "handler": "handler.startStateMachine",
@@ -1292,7 +1365,7 @@
           "timeout": 6,
           "runtime": "nodejs18.x",
           "vpc": {},
-          "versionLogicalId": "StartStateMachineLambdaVersionM9T1btpiPY4EU4RvXbATbPLRoaq5NKxShR8ePE9U"
+          "versionLogicalId": "StartStateMachineLambdaVersion6IX2SLicGczz62Inb8CZlwZHAgYq5PP3kK5gZBa9T8"
         }
       },
       "stepFunctions": {
@@ -1333,7 +1406,77 @@
               }
             }
           },
+          "updatePriceLists": {
+            "name": "UpdatePriceListsBC",
+            "definition": {
+              "Comment": "State machine to update price lists.",
+              "StartAt": "getPriceListsBC",
+              "States": {
+                "getPriceListsBC": {
+                  "Type": "Task",
+                  "Resource": "arn:aws:states:::lambda:invoke",
+                  "OutputPath": "$.Payload.body.data",
+                  "Parameters": {
+                    "FunctionName": "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getPriceListsBC:$LATEST",
+                    "Payload": {
+                      "limit": "1000"
+                    }
+                  },
+                  "Retry": [
+                    {
+                      "ErrorEquals": [
+                        "States.ALL"
+                      ],
+                      "IntervalSeconds": 6,
+                      "MaxAttempts": 6,
+                      "BackoffRate": 2
+                    }
+                  ],
+                  "Next": "IteratePriceLists"
+                },
+                "IteratePriceLists": {
+                  "Type": "Map",
+                  "ItemProcessor": {
+                    "ProcessorConfig": {
+                      "Mode": "INLINE"
+                    },
+                    "StartAt": "getPricesByCustomersAssa",
+                    "States": {
+                      "getPricesByCustomersAssa": {
+                        "Type": "Task",
+                        "Resource": "arn:aws:states:::lambda:invoke",
+                        "Parameters": {
+                          "Payload.$": "$",
+                          "FunctionName": "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getPricesByCustomersAssa:$LATEST"
+                        },
+                        "Retry": [
+                          {
+                            "ErrorEquals": [
+                              "States.ALL"
+                            ],
+                            "IntervalSeconds": 6,
+                            "MaxAttempts": 6,
+                            "BackoffRate": 2
+                          }
+                        ],
+                        "OutputPath": "$.Payload.body",
+                        "End": true
+                      }
+                    }
+                  },
+                  "End": true,
+                  "ItemSelector": {
+                    "billTo.$": "$$.Map.Item.Value.billTo",
+                    "price_list_id.$": "$$.Map.Item.Value.price_list_id"
+                  },
+                  "ResultSelector": {},
+                  "MaxConcurrency": 1
+                }
+              }
+            }
+          },
           "CrearOrden2": {
+            "name": "CrearOrden2",
             "definition": {
               "Comment": "A description of my state machine",
               "StartAt": "Wait (1)",
@@ -1389,8 +1532,99 @@
                               "BackoffRate": 2
                             }
                           ],
-                          "Next": "createOrder",
+                          "Next": "Map",
                           "OutputPath": "$.Payload"
+                        },
+                        "Map": {
+                          "Type": "Map",
+                          "End": true,
+                          "Iterator": {
+                            "StartAt": "GetAlmacen",
+                            "States": {
+                              "GetAlmacen": {
+                                "Type": "Task",
+                                "Resource": "arn:aws:states:::lambda:invoke",
+                                "OutputPath": "$.Payload",
+                                "Parameters": {
+                                  "Payload.$": "$",
+                                  "FunctionName": "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetAlmacen:$LATEST"
+                                },
+                                "Retry": [
+                                  {
+                                    "ErrorEquals": [
+                                      "States.ALL"
+                                    ],
+                                    "IntervalSeconds": 6,
+                                    "MaxAttempts": 6,
+                                    "BackoffRate": 2
+                                  }
+                                ],
+                                "End": true
+                              }
+                            }
+                          },
+                          "ItemsPath": "$.body",
+                          "MaxConcurrency": 10,
+                          "Retry": [
+                            {
+                              "ErrorEquals": [
+                                "States.ALL"
+                              ],
+                              "BackoffRate": 1,
+                              "IntervalSeconds": 6,
+                              "MaxAttempts": 6
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "StartAt": "Wait",
+                      "States": {
+                        "Wait": {
+                          "Type": "Wait",
+                          "Seconds": 25,
+                          "Next": "GetOrderB2B"
+                        },
+                        "GetOrderB2B": {
+                          "Type": "Task",
+                          "Resource": "arn:aws:states:::lambda:invoke",
+                          "OutputPath": "$.Payload",
+                          "Parameters": {
+                            "Payload.$": "$",
+                            "FunctionName": "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetOrderB2B:$LATEST"
+                          },
+                          "Retry": [
+                            {
+                              "ErrorEquals": [
+                                "States.ALL"
+                              ],
+                              "IntervalSeconds": 6,
+                              "MaxAttempts": 6,
+                              "BackoffRate": 2
+                            }
+                          ],
+                          "Next": "GetBillTo"
+                        },
+                        "GetBillTo": {
+                          "Type": "Task",
+                          "Resource": "arn:aws:states:::lambda:invoke",
+                          "OutputPath": "$.Payload",
+                          "Parameters": {
+                            "Payload.$": "$",
+                            "FunctionName": "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetBillToB2B:$LATEST"
+                          },
+                          "Retry": [
+                            {
+                              "ErrorEquals": [
+                                "States.ALL"
+                              ],
+                              "IntervalSeconds": 6,
+                              "MaxAttempts": 6,
+                              "BackoffRate": 2
+                            }
+                          ],
+                          "End": true
                         }
                       }
                     },
@@ -1661,7 +1895,7 @@
             "Properties": {
               "Code": {
                 "S3Bucket": "serverless-framework-deployments-us-east-1-cc71c788-7df0",
-                "S3Key": "serverless/my-serverless-step-functions/dev/1739840635943-2025-02-18T01:03:55.943Z/my-serverless-step-functions.zip"
+                "S3Key": "serverless/my-serverless-step-functions/dev/1739845260442-2025-02-18T02:21:00.442Z/my-serverless-step-functions.zip"
               },
               "Handler": "handler.registerUser",
               "Runtime": "nodejs18.x",
@@ -1684,7 +1918,7 @@
             "Properties": {
               "Code": {
                 "S3Bucket": "serverless-framework-deployments-us-east-1-cc71c788-7df0",
-                "S3Key": "serverless/my-serverless-step-functions/dev/1739840635943-2025-02-18T01:03:55.943Z/my-serverless-step-functions.zip"
+                "S3Key": "serverless/my-serverless-step-functions/dev/1739845260442-2025-02-18T02:21:00.442Z/my-serverless-step-functions.zip"
               },
               "Handler": "handler.firstFunction",
               "Runtime": "nodejs18.x",
@@ -1707,7 +1941,7 @@
             "Properties": {
               "Code": {
                 "S3Bucket": "serverless-framework-deployments-us-east-1-cc71c788-7df0",
-                "S3Key": "serverless/my-serverless-step-functions/dev/1739840635943-2025-02-18T01:03:55.943Z/my-serverless-step-functions.zip"
+                "S3Key": "serverless/my-serverless-step-functions/dev/1739845260442-2025-02-18T02:21:00.442Z/my-serverless-step-functions.zip"
               },
               "Handler": "handler.secondFunction",
               "Runtime": "nodejs18.x",
@@ -1730,7 +1964,7 @@
             "Properties": {
               "Code": {
                 "S3Bucket": "serverless-framework-deployments-us-east-1-cc71c788-7df0",
-                "S3Key": "serverless/my-serverless-step-functions/dev/1739840635943-2025-02-18T01:03:55.943Z/my-serverless-step-functions.zip"
+                "S3Key": "serverless/my-serverless-step-functions/dev/1739845260442-2025-02-18T02:21:00.442Z/my-serverless-step-functions.zip"
               },
               "Handler": "handler.getExecutionStatus",
               "Runtime": "nodejs18.x",
@@ -1753,7 +1987,7 @@
             "Properties": {
               "Code": {
                 "S3Bucket": "serverless-framework-deployments-us-east-1-cc71c788-7df0",
-                "S3Key": "serverless/my-serverless-step-functions/dev/1739840635943-2025-02-18T01:03:55.943Z/my-serverless-step-functions.zip"
+                "S3Key": "serverless/my-serverless-step-functions/dev/1739845260442-2025-02-18T02:21:00.442Z/my-serverless-step-functions.zip"
               },
               "Handler": "handler.primeraDespuesDelRegistro",
               "Runtime": "nodejs18.x",
@@ -1776,7 +2010,7 @@
             "Properties": {
               "Code": {
                 "S3Bucket": "serverless-framework-deployments-us-east-1-cc71c788-7df0",
-                "S3Key": "serverless/my-serverless-step-functions/dev/1739840635943-2025-02-18T01:03:55.943Z/my-serverless-step-functions.zip"
+                "S3Key": "serverless/my-serverless-step-functions/dev/1739845260442-2025-02-18T02:21:00.442Z/my-serverless-step-functions.zip"
               },
               "Handler": "handler.segundaDespuesDelRegistro",
               "Runtime": "nodejs18.x",
@@ -1799,7 +2033,7 @@
             "Properties": {
               "Code": {
                 "S3Bucket": "serverless-framework-deployments-us-east-1-cc71c788-7df0",
-                "S3Key": "serverless/my-serverless-step-functions/dev/1739840635943-2025-02-18T01:03:55.943Z/my-serverless-step-functions.zip"
+                "S3Key": "serverless/my-serverless-step-functions/dev/1739845260442-2025-02-18T02:21:00.442Z/my-serverless-step-functions.zip"
               },
               "Handler": "handler.startStateMachine",
               "Runtime": "nodejs18.x",
@@ -1817,74 +2051,74 @@
               "StartStateMachineLogGroup"
             ]
           },
-          "RegisterUserLambdaVersionf12hSmlymlyg855uUuvufFSrHDkEHnvv8MQuYt8Eo": {
+          "RegisterUserLambdaVersion5YEn4hrpnkWetckrl2Pcwu2p1g52C3rHX3xQzP7Sz3M": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "RegisterUserLambdaFunction"
               },
-              "CodeSha256": "QGNdS18S4+NCvzt946FnEnhUYH7J4IWvbd5rN5qViG0="
+              "CodeSha256": "iAYrGYrHkBl2MF5mLwyULXesdBAAnkq6bc6eNNW+mn4="
             }
           },
-          "FirstFunctionLambdaVersionYJJ8LJS3GAQkA91BcDAFwtqsYZH8bwgvA5PRTZb54": {
+          "FirstFunctionLambdaVersionLfO8RJIwSHNwHkzNiHBTT73YuaR2VGpR5sxh4ga493w": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "FirstFunctionLambdaFunction"
               },
-              "CodeSha256": "QGNdS18S4+NCvzt946FnEnhUYH7J4IWvbd5rN5qViG0="
+              "CodeSha256": "iAYrGYrHkBl2MF5mLwyULXesdBAAnkq6bc6eNNW+mn4="
             }
           },
-          "SecondFunctionLambdaVersionlGireGvuKD421ZT3PLP8Jbsq7GPaHzeQZ7HG3WqY": {
+          "SecondFunctionLambdaVersionZ4xCgNEBqSK1D6uy9NbVDCGW5YDHit2P01GLDFWeAXI": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "SecondFunctionLambdaFunction"
               },
-              "CodeSha256": "QGNdS18S4+NCvzt946FnEnhUYH7J4IWvbd5rN5qViG0="
+              "CodeSha256": "iAYrGYrHkBl2MF5mLwyULXesdBAAnkq6bc6eNNW+mn4="
             }
           },
-          "GetExecutionStatusLambdaVersionAaji1pq4mU66BQEFtkt3mazbsAGPnQ3V328lCOcdg": {
+          "GetExecutionStatusLambdaVersionMGzMpqxyN6krKS2ZimdsouEjWaw0tH3nIBXuizHg": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "GetExecutionStatusLambdaFunction"
               },
-              "CodeSha256": "QGNdS18S4+NCvzt946FnEnhUYH7J4IWvbd5rN5qViG0="
+              "CodeSha256": "iAYrGYrHkBl2MF5mLwyULXesdBAAnkq6bc6eNNW+mn4="
             }
           },
-          "PrimeraDespuesDelRegistroLambdaVersiono0mN7TLsn3xRdJvn8t8pSdT3uMTEyLIZ4aphptE3WM8": {
+          "PrimeraDespuesDelRegistroLambdaVersionhf5Mdmnlr2mFV1lu687JnxzHsqyQwR9ucKV0gJCT780": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "PrimeraDespuesDelRegistroLambdaFunction"
               },
-              "CodeSha256": "QGNdS18S4+NCvzt946FnEnhUYH7J4IWvbd5rN5qViG0="
+              "CodeSha256": "iAYrGYrHkBl2MF5mLwyULXesdBAAnkq6bc6eNNW+mn4="
             }
           },
-          "SegundaDespuesDelRegistroLambdaVersionN2wo0jqy6pHKyuDTAriM1OqODj29GlLGGuBP6pSnR9U": {
+          "SegundaDespuesDelRegistroLambdaVersionkmAYCOBFvTZL0zWfDwHbPCPorwsdmEbFx4nQMIL4": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "SegundaDespuesDelRegistroLambdaFunction"
               },
-              "CodeSha256": "QGNdS18S4+NCvzt946FnEnhUYH7J4IWvbd5rN5qViG0="
+              "CodeSha256": "iAYrGYrHkBl2MF5mLwyULXesdBAAnkq6bc6eNNW+mn4="
             }
           },
-          "StartStateMachineLambdaVersionM9T1btpiPY4EU4RvXbATbPLRoaq5NKxShR8ePE9U": {
+          "StartStateMachineLambdaVersion6IX2SLicGczz62Inb8CZlwZHAgYq5PP3kK5gZBa9T8": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "StartStateMachineLambdaFunction"
               },
-              "CodeSha256": "QGNdS18S4+NCvzt946FnEnhUYH7J4IWvbd5rN5qViG0="
+              "CodeSha256": "iAYrGYrHkBl2MF5mLwyULXesdBAAnkq6bc6eNNW+mn4="
             }
           },
           "UserRegistrationFlowStepFunctionsStateMachineRole": {
@@ -2037,7 +2271,48 @@
               ]
             }
           },
-          "CrearOrden2StepFunctionsStateMachineRole": {
+          "UpdatePriceListsBCRole": {
+            "Type": "AWS::IAM::Role",
+            "Properties": {
+              "AssumeRolePolicyDocument": {
+                "Version": "2012-10-17",
+                "Statement": [
+                  {
+                    "Effect": "Allow",
+                    "Principal": {
+                      "Service": {
+                        "Fn::Sub": "states.${AWS::Region}.amazonaws.com"
+                      }
+                    },
+                    "Action": "sts:AssumeRole"
+                  }
+                ]
+              },
+              "Policies": [
+                {
+                  "PolicyName": "dev-my-serverless-step-functions-statemachine",
+                  "PolicyDocument": {
+                    "Version": "2012-10-17",
+                    "Statement": [
+                      {
+                        "Effect": "Allow",
+                        "Action": [
+                          "lambda:InvokeFunction"
+                        ],
+                        "Resource": [
+                          "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getPriceListsBC:$LATEST",
+                          "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getPriceListsBC:$LATEST:*",
+                          "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getPricesByCustomersAssa:$LATEST",
+                          "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getPricesByCustomersAssa:$LATEST:*"
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "CrearOrden2Role": {
             "Type": "AWS::IAM::Role",
             "Properties": {
               "AssumeRolePolicyDocument": {
@@ -2070,6 +2345,12 @@
                           "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetOrderBC:$LATEST:*",
                           "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetProducts:$LATEST",
                           "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetProducts:$LATEST:*",
+                          "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetAlmacen:$LATEST",
+                          "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetAlmacen:$LATEST:*",
+                          "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetOrderB2B:$LATEST",
+                          "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetOrderB2B:$LATEST:*",
+                          "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetBillToB2B:$LATEST",
+                          "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetBillToB2B:$LATEST:*",
                           "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetCustomerMessage:$LATEST",
                           "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetCustomerMessage:$LATEST:*",
                           "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFcreateOrder:$LATEST",
@@ -2150,19 +2431,36 @@
               "MyStateMachineStepFunctionsStateMachineRole"
             ]
           },
-          "CrearOrden2StepFunctionsStateMachine": {
+          "UpdatePriceListsBC": {
             "Type": "AWS::StepFunctions::StateMachine",
             "Properties": {
-              "DefinitionString": "{\n  \"Comment\": \"A description of my state machine\",\n  \"StartAt\": \"Wait (1)\",\n  \"States\": {\n    \"Wait (1)\": {\n      \"Type\": \"Wait\",\n      \"Seconds\": 220,\n      \"Next\": \"GetOrderBC\"\n    },\n    \"GetOrderBC\": {\n      \"Type\": \"Task\",\n      \"Resource\": \"arn:aws:states:::lambda:invoke\",\n      \"OutputPath\": \"$.Payload\",\n      \"Parameters\": {\n        \"Payload.$\": \"$\",\n        \"FunctionName\": \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetOrderBC:$LATEST\"\n      },\n      \"Retry\": [\n        {\n          \"ErrorEquals\": [\n            \"Lambda.ServiceException\",\n            \"Lambda.AWSLambdaException\",\n            \"Lambda.SdkClientException\",\n            \"Lambda.TooManyRequestsException\"\n          ],\n          \"IntervalSeconds\": 1,\n          \"MaxAttempts\": 3,\n          \"BackoffRate\": 2\n        }\n      ],\n      \"Next\": \"Parallel\"\n    },\n    \"Parallel\": {\n      \"Type\": \"Parallel\",\n      \"Branches\": [\n        {\n          \"StartAt\": \"GetProductsBC\",\n          \"States\": {\n            \"GetProductsBC\": {\n              \"Type\": \"Task\",\n              \"Resource\": \"arn:aws:states:::lambda:invoke\",\n              \"Parameters\": {\n                \"Payload.$\": \"$\",\n                \"FunctionName\": \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetProducts:$LATEST\"\n              },\n              \"Retry\": [\n                {\n                  \"ErrorEquals\": [\n                    \"States.ALL\"\n                  ],\n                  \"IntervalSeconds\": 6,\n                  \"MaxAttempts\": 6,\n                  \"BackoffRate\": 2\n                }\n              ],\n              \"Next\": \"createOrder\",\n              \"OutputPath\": \"$.Payload\"\n            }\n          }\n        },\n        {\n          \"StartAt\": \"GetCustomerMessage\",\n          \"States\": {\n            \"GetCustomerMessage\": {\n              \"Type\": \"Task\",\n              \"Resource\": \"arn:aws:states:::lambda:invoke\",\n              \"OutputPath\": \"$.Payload\",\n              \"Parameters\": {\n                \"Payload.$\": \"$\",\n                \"FunctionName\": \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetCustomerMessage:$LATEST\"\n              },\n              \"Retry\": [\n                {\n                  \"ErrorEquals\": [\n                    \"States.ALL\"\n                  ],\n                  \"IntervalSeconds\": 6,\n                  \"MaxAttempts\": 6,\n                  \"BackoffRate\": 2\n                }\n              ],\n              \"End\": true\n            }\n          }\n        }\n      ],\n      \"Next\": \"createOrder\"\n    },\n    \"createOrder\": {\n      \"Type\": \"Task\",\n      \"Resource\": \"arn:aws:states:::lambda:invoke\",\n      \"OutputPath\": \"$.Payload\",\n      \"Parameters\": {\n        \"Payload.$\": \"$\",\n        \"FunctionName\": \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFcreateOrder:$LATEST\"\n      },\n      \"Retry\": [\n        {\n          \"ErrorEquals\": [\n            \"States.ALL\"\n          ],\n          \"IntervalSeconds\": 6,\n          \"MaxAttempts\": 6,\n          \"BackoffRate\": 2\n        }\n      ],\n      \"Next\": \"Error 400\"\n    },\n    \"Error 400\": {\n      \"Type\": \"Choice\",\n      \"Choices\": [\n        {\n          \"Variable\": \"$.body.status\",\n          \"NumericEquals\": 200,\n          \"Next\": \"Orden Creada\"\n        },\n        {\n          \"Variable\": \"$.body.status\",\n          \"NumericEquals\": 600,\n          \"Comment\": \"Pedido Duplicado 600\",\n          \"Next\": \"Pedido Duplicado\"\n        }\n      ],\n      \"Default\": \"CancelOrder\"\n    },\n    \"CancelOrder\": {\n      \"Type\": \"Task\",\n      \"Resource\": \"arn:aws:states:::lambda:invoke\",\n      \"OutputPath\": \"$.Payload\",\n      \"Parameters\": {\n        \"Payload.$\": \"$\",\n        \"FunctionName\": \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFcancelarOrden:$LATEST\"\n      },\n      \"Retry\": [\n        {\n          \"ErrorEquals\": [\n            \"States.ALL\"\n          ],\n          \"IntervalSeconds\": 6,\n          \"MaxAttempts\": 6,\n          \"BackoffRate\": 2\n        }\n      ],\n      \"Next\": \"Fail\"\n    },\n    \"Pedido Duplicado\": {\n      \"Type\": \"Fail\"\n    },\n    \"Orden Creada\": {\n      \"Type\": \"Succeed\"\n    },\n    \"Fail\": {\n      \"Type\": \"Fail\"\n    }\n  }\n}",
+              "DefinitionString": "{\n  \"Comment\": \"State machine to update price lists.\",\n  \"StartAt\": \"getPriceListsBC\",\n  \"States\": {\n    \"getPriceListsBC\": {\n      \"Type\": \"Task\",\n      \"Resource\": \"arn:aws:states:::lambda:invoke\",\n      \"OutputPath\": \"$.Payload.body.data\",\n      \"Parameters\": {\n        \"FunctionName\": \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getPriceListsBC:$LATEST\",\n        \"Payload\": {\n          \"limit\": \"1000\"\n        }\n      },\n      \"Retry\": [\n        {\n          \"ErrorEquals\": [\n            \"States.ALL\"\n          ],\n          \"IntervalSeconds\": 6,\n          \"MaxAttempts\": 6,\n          \"BackoffRate\": 2\n        }\n      ],\n      \"Next\": \"IteratePriceLists\"\n    },\n    \"IteratePriceLists\": {\n      \"Type\": \"Map\",\n      \"ItemProcessor\": {\n        \"ProcessorConfig\": {\n          \"Mode\": \"INLINE\"\n        },\n        \"StartAt\": \"getPricesByCustomersAssa\",\n        \"States\": {\n          \"getPricesByCustomersAssa\": {\n            \"Type\": \"Task\",\n            \"Resource\": \"arn:aws:states:::lambda:invoke\",\n            \"Parameters\": {\n              \"Payload.$\": \"$\",\n              \"FunctionName\": \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getPricesByCustomersAssa:$LATEST\"\n            },\n            \"Retry\": [\n              {\n                \"ErrorEquals\": [\n                  \"States.ALL\"\n                ],\n                \"IntervalSeconds\": 6,\n                \"MaxAttempts\": 6,\n                \"BackoffRate\": 2\n              }\n            ],\n            \"OutputPath\": \"$.Payload.body\",\n            \"End\": true\n          }\n        }\n      },\n      \"End\": true,\n      \"ItemSelector\": {\n        \"billTo.$\": \"$$.Map.Item.Value.billTo\",\n        \"price_list_id.$\": \"$$.Map.Item.Value.price_list_id\"\n      },\n      \"ResultSelector\": {},\n      \"MaxConcurrency\": 1\n    }\n  }\n}",
               "RoleArn": {
                 "Fn::GetAtt": [
-                  "CrearOrden2StepFunctionsStateMachineRole",
+                  "UpdatePriceListsBCRole",
                   "Arn"
                 ]
-              }
+              },
+              "StateMachineName": "UpdatePriceListsBC"
             },
             "DependsOn": [
-              "CrearOrden2StepFunctionsStateMachineRole"
+              "UpdatePriceListsBCRole"
+            ]
+          },
+          "CrearOrden2": {
+            "Type": "AWS::StepFunctions::StateMachine",
+            "Properties": {
+              "DefinitionString": "{\n  \"Comment\": \"A description of my state machine\",\n  \"StartAt\": \"Wait (1)\",\n  \"States\": {\n    \"Wait (1)\": {\n      \"Type\": \"Wait\",\n      \"Seconds\": 220,\n      \"Next\": \"GetOrderBC\"\n    },\n    \"GetOrderBC\": {\n      \"Type\": \"Task\",\n      \"Resource\": \"arn:aws:states:::lambda:invoke\",\n      \"OutputPath\": \"$.Payload\",\n      \"Parameters\": {\n        \"Payload.$\": \"$\",\n        \"FunctionName\": \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetOrderBC:$LATEST\"\n      },\n      \"Retry\": [\n        {\n          \"ErrorEquals\": [\n            \"Lambda.ServiceException\",\n            \"Lambda.AWSLambdaException\",\n            \"Lambda.SdkClientException\",\n            \"Lambda.TooManyRequestsException\"\n          ],\n          \"IntervalSeconds\": 1,\n          \"MaxAttempts\": 3,\n          \"BackoffRate\": 2\n        }\n      ],\n      \"Next\": \"Parallel\"\n    },\n    \"Parallel\": {\n      \"Type\": \"Parallel\",\n      \"Branches\": [\n        {\n          \"StartAt\": \"GetProductsBC\",\n          \"States\": {\n            \"GetProductsBC\": {\n              \"Type\": \"Task\",\n              \"Resource\": \"arn:aws:states:::lambda:invoke\",\n              \"Parameters\": {\n                \"Payload.$\": \"$\",\n                \"FunctionName\": \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetProducts:$LATEST\"\n              },\n              \"Retry\": [\n                {\n                  \"ErrorEquals\": [\n                    \"States.ALL\"\n                  ],\n                  \"IntervalSeconds\": 6,\n                  \"MaxAttempts\": 6,\n                  \"BackoffRate\": 2\n                }\n              ],\n              \"Next\": \"Map\",\n              \"OutputPath\": \"$.Payload\"\n            },\n            \"Map\": {\n              \"Type\": \"Map\",\n              \"End\": true,\n              \"Iterator\": {\n                \"StartAt\": \"GetAlmacen\",\n                \"States\": {\n                  \"GetAlmacen\": {\n                    \"Type\": \"Task\",\n                    \"Resource\": \"arn:aws:states:::lambda:invoke\",\n                    \"OutputPath\": \"$.Payload\",\n                    \"Parameters\": {\n                      \"Payload.$\": \"$\",\n                      \"FunctionName\": \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetAlmacen:$LATEST\"\n                    },\n                    \"Retry\": [\n                      {\n                        \"ErrorEquals\": [\n                          \"States.ALL\"\n                        ],\n                        \"IntervalSeconds\": 6,\n                        \"MaxAttempts\": 6,\n                        \"BackoffRate\": 2\n                      }\n                    ],\n                    \"End\": true\n                  }\n                }\n              },\n              \"ItemsPath\": \"$.body\",\n              \"MaxConcurrency\": 10,\n              \"Retry\": [\n                {\n                  \"ErrorEquals\": [\n                    \"States.ALL\"\n                  ],\n                  \"BackoffRate\": 1,\n                  \"IntervalSeconds\": 6,\n                  \"MaxAttempts\": 6\n                }\n              ]\n            }\n          }\n        },\n        {\n          \"StartAt\": \"Wait\",\n          \"States\": {\n            \"Wait\": {\n              \"Type\": \"Wait\",\n              \"Seconds\": 25,\n              \"Next\": \"GetOrderB2B\"\n            },\n            \"GetOrderB2B\": {\n              \"Type\": \"Task\",\n              \"Resource\": \"arn:aws:states:::lambda:invoke\",\n              \"OutputPath\": \"$.Payload\",\n              \"Parameters\": {\n                \"Payload.$\": \"$\",\n                \"FunctionName\": \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetOrderB2B:$LATEST\"\n              },\n              \"Retry\": [\n                {\n                  \"ErrorEquals\": [\n                    \"States.ALL\"\n                  ],\n                  \"IntervalSeconds\": 6,\n                  \"MaxAttempts\": 6,\n                  \"BackoffRate\": 2\n                }\n              ],\n              \"Next\": \"GetBillTo\"\n            },\n            \"GetBillTo\": {\n              \"Type\": \"Task\",\n              \"Resource\": \"arn:aws:states:::lambda:invoke\",\n              \"OutputPath\": \"$.Payload\",\n              \"Parameters\": {\n                \"Payload.$\": \"$\",\n                \"FunctionName\": \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetBillToB2B:$LATEST\"\n              },\n              \"Retry\": [\n                {\n                  \"ErrorEquals\": [\n                    \"States.ALL\"\n                  ],\n                  \"IntervalSeconds\": 6,\n                  \"MaxAttempts\": 6,\n                  \"BackoffRate\": 2\n                }\n              ],\n              \"End\": true\n            }\n          }\n        },\n        {\n          \"StartAt\": \"GetCustomerMessage\",\n          \"States\": {\n            \"GetCustomerMessage\": {\n              \"Type\": \"Task\",\n              \"Resource\": \"arn:aws:states:::lambda:invoke\",\n              \"OutputPath\": \"$.Payload\",\n              \"Parameters\": {\n                \"Payload.$\": \"$\",\n                \"FunctionName\": \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetCustomerMessage:$LATEST\"\n              },\n              \"Retry\": [\n                {\n                  \"ErrorEquals\": [\n                    \"States.ALL\"\n                  ],\n                  \"IntervalSeconds\": 6,\n                  \"MaxAttempts\": 6,\n                  \"BackoffRate\": 2\n                }\n              ],\n              \"End\": true\n            }\n          }\n        }\n      ],\n      \"Next\": \"createOrder\"\n    },\n    \"createOrder\": {\n      \"Type\": \"Task\",\n      \"Resource\": \"arn:aws:states:::lambda:invoke\",\n      \"OutputPath\": \"$.Payload\",\n      \"Parameters\": {\n        \"Payload.$\": \"$\",\n        \"FunctionName\": \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFcreateOrder:$LATEST\"\n      },\n      \"Retry\": [\n        {\n          \"ErrorEquals\": [\n            \"States.ALL\"\n          ],\n          \"IntervalSeconds\": 6,\n          \"MaxAttempts\": 6,\n          \"BackoffRate\": 2\n        }\n      ],\n      \"Next\": \"Error 400\"\n    },\n    \"Error 400\": {\n      \"Type\": \"Choice\",\n      \"Choices\": [\n        {\n          \"Variable\": \"$.body.status\",\n          \"NumericEquals\": 200,\n          \"Next\": \"Orden Creada\"\n        },\n        {\n          \"Variable\": \"$.body.status\",\n          \"NumericEquals\": 600,\n          \"Comment\": \"Pedido Duplicado 600\",\n          \"Next\": \"Pedido Duplicado\"\n        }\n      ],\n      \"Default\": \"CancelOrder\"\n    },\n    \"CancelOrder\": {\n      \"Type\": \"Task\",\n      \"Resource\": \"arn:aws:states:::lambda:invoke\",\n      \"OutputPath\": \"$.Payload\",\n      \"Parameters\": {\n        \"Payload.$\": \"$\",\n        \"FunctionName\": \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFcancelarOrden:$LATEST\"\n      },\n      \"Retry\": [\n        {\n          \"ErrorEquals\": [\n            \"States.ALL\"\n          ],\n          \"IntervalSeconds\": 6,\n          \"MaxAttempts\": 6,\n          \"BackoffRate\": 2\n        }\n      ],\n      \"Next\": \"Fail\"\n    },\n    \"Pedido Duplicado\": {\n      \"Type\": \"Fail\"\n    },\n    \"Orden Creada\": {\n      \"Type\": \"Succeed\"\n    },\n    \"Fail\": {\n      \"Type\": \"Fail\"\n    }\n  }\n}",
+              "RoleArn": {
+                "Fn::GetAtt": [
+                  "CrearOrden2Role",
+                  "Arn"
+                ]
+              },
+              "StateMachineName": "CrearOrden2"
+            },
+            "DependsOn": [
+              "CrearOrden2Role"
             ]
           },
           "ApiGatewayRestApi": {
@@ -2405,7 +2703,7 @@
               "StartStateMachineLambdaPermissionApiGateway"
             ]
           },
-          "ApiGatewayDeployment1739840627317": {
+          "ApiGatewayDeployment1739845251641": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -2542,7 +2840,7 @@
           "RegisterUserLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "RegisterUserLambdaVersionf12hSmlymlyg855uUuvufFSrHDkEHnvv8MQuYt8Eo"
+              "Ref": "RegisterUserLambdaVersion5YEn4hrpnkWetckrl2Pcwu2p1g52C3rHX3xQzP7Sz3M"
             },
             "Export": {
               "Name": "sls-my-serverless-step-functions-dev-RegisterUserLambdaFunctionQualifiedArn"
@@ -2551,7 +2849,7 @@
           "FirstFunctionLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "FirstFunctionLambdaVersionYJJ8LJS3GAQkA91BcDAFwtqsYZH8bwgvA5PRTZb54"
+              "Ref": "FirstFunctionLambdaVersionLfO8RJIwSHNwHkzNiHBTT73YuaR2VGpR5sxh4ga493w"
             },
             "Export": {
               "Name": "sls-my-serverless-step-functions-dev-FirstFunctionLambdaFunctionQualifiedArn"
@@ -2560,7 +2858,7 @@
           "SecondFunctionLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "SecondFunctionLambdaVersionlGireGvuKD421ZT3PLP8Jbsq7GPaHzeQZ7HG3WqY"
+              "Ref": "SecondFunctionLambdaVersionZ4xCgNEBqSK1D6uy9NbVDCGW5YDHit2P01GLDFWeAXI"
             },
             "Export": {
               "Name": "sls-my-serverless-step-functions-dev-SecondFunctionLambdaFunctionQualifiedArn"
@@ -2569,7 +2867,7 @@
           "GetExecutionStatusLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "GetExecutionStatusLambdaVersionAaji1pq4mU66BQEFtkt3mazbsAGPnQ3V328lCOcdg"
+              "Ref": "GetExecutionStatusLambdaVersionMGzMpqxyN6krKS2ZimdsouEjWaw0tH3nIBXuizHg"
             },
             "Export": {
               "Name": "sls-my-serverless-step-functions-dev-GetExecutionStatusLambdaFunctionQualifiedArn"
@@ -2578,7 +2876,7 @@
           "PrimeraDespuesDelRegistroLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "PrimeraDespuesDelRegistroLambdaVersiono0mN7TLsn3xRdJvn8t8pSdT3uMTEyLIZ4aphptE3WM8"
+              "Ref": "PrimeraDespuesDelRegistroLambdaVersionhf5Mdmnlr2mFV1lu687JnxzHsqyQwR9ucKV0gJCT780"
             },
             "Export": {
               "Name": "sls-my-serverless-step-functions-dev-PrimeraDespuesDelRegistroLambdaFunctionQualifiedArn"
@@ -2587,7 +2885,7 @@
           "SegundaDespuesDelRegistroLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "SegundaDespuesDelRegistroLambdaVersionN2wo0jqy6pHKyuDTAriM1OqODj29GlLGGuBP6pSnR9U"
+              "Ref": "SegundaDespuesDelRegistroLambdaVersionkmAYCOBFvTZL0zWfDwHbPCPorwsdmEbFx4nQMIL4"
             },
             "Export": {
               "Name": "sls-my-serverless-step-functions-dev-SegundaDespuesDelRegistroLambdaFunctionQualifiedArn"
@@ -2596,7 +2894,7 @@
           "StartStateMachineLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "StartStateMachineLambdaVersionM9T1btpiPY4EU4RvXbATbPLRoaq5NKxShR8ePE9U"
+              "Ref": "StartStateMachineLambdaVersion6IX2SLicGczz62Inb8CZlwZHAgYq5PP3kK5gZBa9T8"
             },
             "Export": {
               "Name": "sls-my-serverless-step-functions-dev-StartStateMachineLambdaFunctionQualifiedArn"
@@ -2620,13 +2918,22 @@
               "Name": "sls-my-serverless-step-functions-dev-MyStateMachineStepFunctionsStateMachineArn"
             }
           },
-          "CrearOrden2StepFunctionsStateMachineArn": {
+          "UpdatePriceListsBCArn": {
             "Description": "Current StateMachine Arn",
             "Value": {
-              "Ref": "CrearOrden2StepFunctionsStateMachine"
+              "Ref": "UpdatePriceListsBC"
             },
             "Export": {
-              "Name": "sls-my-serverless-step-functions-dev-CrearOrden2StepFunctionsStateMachineArn"
+              "Name": "sls-my-serverless-step-functions-dev-UpdatePriceListsBCArn"
+            }
+          },
+          "CrearOrden2Arn": {
+            "Description": "Current StateMachine Arn",
+            "Value": {
+              "Ref": "CrearOrden2"
+            },
+            "Export": {
+              "Name": "sls-my-serverless-step-functions-dev-CrearOrden2Arn"
             }
           },
           "ServiceEndpoint": {
@@ -2668,12 +2975,7 @@
       "serviceProvider": null,
       "instanceParameters": null
     },
-    "error": {
-      "message": "An error occurred: CrearOrden2StepFunctionsStateMachine - Resource handler returned message: \"Invalid State Machine Definition: 'MISSING_TRANSITION_TARGET: Missing 'Next' target: createOrder at /States/Parallel/Branches[0]/States/GetProductsBC/Next, MISSING_END_STATE: Workflow has no terminal state at null' (Service: AWSStepFunctions; Status Code: 400; Error Code: InvalidDefinition; Request ID: 984c5658-1f97-4394-b154-2090b885513c; Proxy: null)\" (RequestToken: f43103bf-fccd-bf6a-f96c-5c1ee8d20b90, HandlerErrorCode: InvalidRequest).",
-      "stack": "ServerlessError3: An error occurred: CrearOrden2StepFunctionsStateMachine - Resource handler returned message: \"Invalid State Machine Definition: 'MISSING_TRANSITION_TARGET: Missing 'Next' target: createOrder at /States/Parallel/Branches[0]/States/GetProductsBC/Next, MISSING_END_STATE: Workflow has no terminal state at null' (Service: AWSStepFunctions; Status Code: 400; Error Code: InvalidDefinition; Request ID: 984c5658-1f97-4394-b154-2090b885513c; Proxy: null)\" (RequestToken: f43103bf-fccd-bf6a-f96c-5c1ee8d20b90, HandlerErrorCode: InvalidRequest).\n    at file:///Users/angelpulido/.serverless/releases/4.6.3/package/dist/sf-core.js:1230:832\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async AwsDeploy.update (file:///Users/angelpulido/.serverless/releases/4.6.3/package/dist/sf-core.js:1230:25551)\n    at async aws:deploy:deploy:updateStack (file:///Users/angelpulido/.serverless/releases/4.6.3/package/dist/sf-core.js:1241:6089)\n    at async PluginManager.runHooks (file:///Users/angelpulido/.serverless/releases/4.6.3/package/dist/sf-core.js:1432:9562)\n    at async PluginManager.invoke (file:///Users/angelpulido/.serverless/releases/4.6.3/package/dist/sf-core.js:1432:10333)\n    at async PluginManager.spawn (file:///Users/angelpulido/.serverless/releases/4.6.3/package/dist/sf-core.js:1432:10696)\n    at async PluginManager.runHooks (file:///Users/angelpulido/.serverless/releases/4.6.3/package/dist/sf-core.js:1432:9562)\n    at async PluginManager.invoke (file:///Users/angelpulido/.serverless/releases/4.6.3/package/dist/sf-core.js:1432:10333)\n    at async PluginManager.run (file:///Users/angelpulido/.serverless/releases/4.6.3/package/dist/sf-core.js:1432:11068)\n    at async Serverless.run (file:///Users/angelpulido/.serverless/releases/4.6.3/package/dist/sf-core.js:1439:10575)\n    at async runFramework (file:///Users/angelpulido/.serverless/releases/4.6.3/package/dist/sf-core.js:1466:1776)\n    at async TraditionalRunner.run (file:///Users/angelpulido/.serverless/releases/4.6.3/package/dist/sf-core.js:1462:28364)\n    at async route (file:///Users/angelpulido/.serverless/releases/4.6.3/package/dist/sf-core.js:1508:2779)\n    at async Object.run (file:///Users/angelpulido/.serverless/releases/4.6.3/package/dist/sf-core.js:1509:3487)\n    at async run2 (file:///Users/angelpulido/.serverless/releases/4.6.3/package/dist/sf-core.js:1509:4640)",
-      "code": "AWS_CLOUD_FORMATION_UPDATE_STACK_INTERNAL_STEP_FUNCTIONS_STATE_MACHINE_CREATE_FAILED"
-    },
-    "serviceRawFile": "service: my-serverless-step-functions\n\nframeworkVersion: \"4\"\n\nprovider:\n  name: aws\n  runtime: nodejs18.x\n  region: us-east-1\n  iamRoleStatements:\n    - Effect: \"Allow\"\n      Action:\n        - \"states:DescribeExecution\"\n        - \"states:StartExecution\"\n      Resource: \"*\"\n    - Effect: \"Allow\"\n      Action:\n        - \"dynamodb:PutItem\"\n      Resource: \"arn:aws:dynamodb:us-east-1:*:table/Users\"\n\nplugins:\n  - serverless-step-functions\n  - serverless-offline\n\nfunctions:\n  registerUser:\n    handler: handler.registerUser\n    events:\n      - http:\n          path: register\n          method: post\n          cors: true\n\n  firstFunction:\n    handler: handler.firstFunction\n\n  secondFunction:\n    handler: handler.secondFunction\n\n  getExecutionStatus:\n    handler: handler.getExecutionStatus\n    events:\n      - http:\n          path: status\n          method: get\n\n  primeraDespuesDelRegistro:\n    handler: handler.primeraDespuesDelRegistro\n\n  segundaDespuesDelRegistro:\n    handler: handler.segundaDespuesDelRegistro\n\n  startStateMachine:\n    handler: handler.startStateMachine\n    events:\n      - http:\n          path: start\n          method: post\n\nstepFunctions:\n  stateMachines:\n    userRegistrationFlow:\n      definition:\n        Comment: \"Step Function que se ejecuta después del registro de usuario\"\n        StartAt: PrimeraDespuesDelRegistro\n        States:\n          PrimeraDespuesDelRegistro:\n            Type: Task\n            Resource:\n              Fn::GetAtt: [primeraDespuesDelRegistro, Arn]\n            Next: SegundaDespuesDelRegistro\n\n          SegundaDespuesDelRegistro:\n            Type: Task\n            Resource:\n              Fn::GetAtt: [segundaDespuesDelRegistro, Arn]\n            End: true\n\n    myStateMachine:\n      definition:\n        Comment: \"Ejemplo de Step Function con API Gateway\"\n        StartAt: FirstStep\n        States:\n          FirstStep:\n            Type: Task\n            Resource:\n              Fn::GetAtt: [firstFunction, Arn]\n            Next: SecondStep\n\n          SecondStep:\n            Type: Task\n            Resource:\n              Fn::GetAtt: [secondFunction, Arn]\n            End: true\n\n    CrearOrden2:\n      definition:\n        Comment: \"A description of my state machine\"\n        StartAt: \"Wait (1)\"\n        States:\n          \"Wait (1)\":\n            Type: Wait\n            Seconds: 220\n            Next: GetOrderBC\n          GetOrderBC:\n            Type: Task\n            Resource: \"arn:aws:states:::lambda:invoke\"\n            OutputPath: \"$.Payload\"\n            Parameters:\n              Payload.$: \"$\"\n              FunctionName: \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetOrderBC:$LATEST\"\n            Retry:\n              - ErrorEquals:\n                  - \"Lambda.ServiceException\"\n                  - \"Lambda.AWSLambdaException\"\n                  - \"Lambda.SdkClientException\"\n                  - \"Lambda.TooManyRequestsException\"\n                IntervalSeconds: 1\n                MaxAttempts: 3\n                BackoffRate: 2\n            Next: Parallel\n          Parallel:\n            Type: Parallel\n            Branches:\n              - StartAt: GetProductsBC\n                States:\n                  GetProductsBC:\n                    Type: Task\n                    Resource: \"arn:aws:states:::lambda:invoke\"\n                    Parameters:\n                      Payload.$: \"$\"\n                      FunctionName: \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetProducts:$LATEST\"\n                    Retry:\n                      - ErrorEquals: [\"States.ALL\"]\n                        IntervalSeconds: 6\n                        MaxAttempts: 6\n                        BackoffRate: 2\n                    Next: createOrder\n                    OutputPath: \"$.Payload\"\n              - StartAt: GetCustomerMessage\n                States:\n                  GetCustomerMessage:\n                    Type: Task\n                    Resource: \"arn:aws:states:::lambda:invoke\"\n                    OutputPath: \"$.Payload\"\n                    Parameters:\n                      Payload.$: \"$\"\n                      FunctionName: \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetCustomerMessage:$LATEST\"\n                    Retry:\n                      - ErrorEquals: [\"States.ALL\"]\n                        IntervalSeconds: 6\n                        MaxAttempts: 6\n                        BackoffRate: 2\n                    End: true\n            Next: createOrder\n          createOrder:\n            Type: Task\n            Resource: \"arn:aws:states:::lambda:invoke\"\n            OutputPath: \"$.Payload\"\n            Parameters:\n              Payload.$: \"$\"\n              FunctionName: \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFcreateOrder:$LATEST\"\n            Retry:\n              - ErrorEquals: [\"States.ALL\"]\n                IntervalSeconds: 6\n                MaxAttempts: 6\n                BackoffRate: 2\n            Next: \"Error 400\"\n          \"Error 400\":\n            Type: Choice\n            Choices:\n              - Variable: \"$.body.status\"\n                NumericEquals: 200\n                Next: \"Orden Creada\"\n              - Variable: \"$.body.status\"\n                NumericEquals: 600\n                Comment: \"Pedido Duplicado 600\"\n                Next: \"Pedido Duplicado\"\n            Default: \"CancelOrder\"\n          CancelOrder:\n            Type: Task\n            Resource: \"arn:aws:states:::lambda:invoke\"\n            OutputPath: \"$.Payload\"\n            Parameters:\n              Payload.$: \"$\"\n              FunctionName: \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFcancelarOrden:$LATEST\"\n            Retry:\n              - ErrorEquals: [\"States.ALL\"]\n                IntervalSeconds: 6\n                MaxAttempts: 6\n                BackoffRate: 2\n            Next: Fail\n          \"Pedido Duplicado\":\n            Type: Fail\n          \"Orden Creada\":\n            Type: Succeed\n          Fail:\n            Type: Fail\n",
+    "serviceRawFile": "service: my-serverless-step-functions\n\nframeworkVersion: \"4\"\n\nprovider:\n  name: aws\n  runtime: nodejs18.x\n  region: us-east-1\n  iamRoleStatements:\n    - Effect: \"Allow\"\n      Action:\n        - \"states:DescribeExecution\"\n        - \"states:StartExecution\"\n      Resource: \"*\"\n    - Effect: \"Allow\"\n      Action:\n        - \"dynamodb:PutItem\"\n      Resource: \"arn:aws:dynamodb:us-east-1:*:table/Users\"\n\nplugins:\n  - serverless-step-functions\n  - serverless-offline\n\nfunctions:\n  registerUser:\n    handler: handler.registerUser\n    events:\n      - http:\n          path: register\n          method: post\n          cors: true\n\n  firstFunction:\n    handler: handler.firstFunction\n\n  secondFunction:\n    handler: handler.secondFunction\n\n  getExecutionStatus:\n    handler: handler.getExecutionStatus\n    events:\n      - http:\n          path: status\n          method: get\n\n  primeraDespuesDelRegistro:\n    handler: handler.primeraDespuesDelRegistro\n\n  segundaDespuesDelRegistro:\n    handler: handler.segundaDespuesDelRegistro\n\n  startStateMachine:\n    handler: handler.startStateMachine\n    events:\n      - http:\n          path: start\n          method: post\n\nstepFunctions:\n  stateMachines:\n    userRegistrationFlow:\n      definition:\n        Comment: \"Step Function que se ejecuta después del registro de usuario\"\n        StartAt: PrimeraDespuesDelRegistro\n        States:\n          PrimeraDespuesDelRegistro:\n            Type: Task\n            Resource:\n              Fn::GetAtt: [primeraDespuesDelRegistro, Arn]\n            Next: SegundaDespuesDelRegistro\n\n          SegundaDespuesDelRegistro:\n            Type: Task\n            Resource:\n              Fn::GetAtt: [segundaDespuesDelRegistro, Arn]\n            End: true\n\n    myStateMachine:\n      definition:\n        Comment: \"Ejemplo de Step Function con API Gateway\"\n        StartAt: FirstStep\n        States:\n          FirstStep:\n            Type: Task\n            Resource:\n              Fn::GetAtt: [firstFunction, Arn]\n            Next: SecondStep\n\n          SecondStep:\n            Type: Task\n            Resource:\n              Fn::GetAtt: [secondFunction, Arn]\n            End: true\n\n    updatePriceLists:\n      name: UpdatePriceListsBC\n      definition:\n        Comment: \"State machine to update price lists.\"\n        StartAt: getPriceListsBC\n        States:\n          getPriceListsBC:\n            Type: Task\n            Resource: \"arn:aws:states:::lambda:invoke\"\n            OutputPath: \"$.Payload.body.data\"\n            Parameters:\n              FunctionName: \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getPriceListsBC:$LATEST\"\n              Payload:\n                limit: \"1000\"\n            Retry:\n              - ErrorEquals: [\"States.ALL\"]\n                IntervalSeconds: 6\n                MaxAttempts: 6\n                BackoffRate: 2\n            Next: IteratePriceLists\n\n          IteratePriceLists:\n            Type: Map\n            ItemProcessor:\n              ProcessorConfig:\n                Mode: \"INLINE\"\n              StartAt: getPricesByCustomersAssa\n              States:\n                getPricesByCustomersAssa:\n                  Type: Task\n                  Resource: \"arn:aws:states:::lambda:invoke\"\n                  Parameters:\n                    Payload.$: \"$\"\n                    FunctionName: \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getPricesByCustomersAssa:$LATEST\"\n                  Retry:\n                    - ErrorEquals: [\"States.ALL\"]\n                      IntervalSeconds: 6\n                      MaxAttempts: 6\n                      BackoffRate: 2\n                  OutputPath: \"$.Payload.body\"\n                  End: true\n            End: true\n            ItemSelector:\n              billTo.$: \"$$.Map.Item.Value.billTo\"\n              price_list_id.$: \"$$.Map.Item.Value.price_list_id\"\n            ResultSelector: {}\n            MaxConcurrency: 1\n\n    CrearOrden2:\n      name: CrearOrden2\n      definition:\n        Comment: \"A description of my state machine\"\n        StartAt: Wait (1)\n        States:\n          Wait (1):\n            Type: Wait\n            Seconds: 220\n            Next: GetOrderBC\n\n          GetOrderBC:\n            Type: Task\n            Resource: \"arn:aws:states:::lambda:invoke\"\n            OutputPath: \"$.Payload\"\n            Parameters:\n              Payload.$: \"$\"\n              FunctionName: \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetOrderBC:$LATEST\"\n            Retry:\n              - ErrorEquals:\n                  - \"Lambda.ServiceException\"\n                  - \"Lambda.AWSLambdaException\"\n                  - \"Lambda.SdkClientException\"\n                  - \"Lambda.TooManyRequestsException\"\n                IntervalSeconds: 1\n                MaxAttempts: 3\n                BackoffRate: 2\n            Next: Parallel\n\n          Parallel:\n            Type: Parallel\n            Branches:\n              - StartAt: GetProductsBC\n                States:\n                  GetProductsBC:\n                    Type: Task\n                    Resource: \"arn:aws:states:::lambda:invoke\"\n                    Parameters:\n                      Payload.$: \"$\"\n                      FunctionName: \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetProducts:$LATEST\"\n                    Retry:\n                      - ErrorEquals: [\"States.ALL\"]\n                        IntervalSeconds: 6\n                        MaxAttempts: 6\n                        BackoffRate: 2\n                    Next: Map\n                    OutputPath: \"$.Payload\"\n\n                  Map:\n                    Type: Map\n                    End: true\n                    Iterator:\n                      StartAt: GetAlmacen\n                      States:\n                        GetAlmacen:\n                          Type: Task\n                          Resource: \"arn:aws:states:::lambda:invoke\"\n                          OutputPath: \"$.Payload\"\n                          Parameters:\n                            Payload.$: \"$\"\n                            FunctionName: \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetAlmacen:$LATEST\"\n                          Retry:\n                            - ErrorEquals: [\"States.ALL\"]\n                              IntervalSeconds: 6\n                              MaxAttempts: 6\n                              BackoffRate: 2\n                          End: true\n                    ItemsPath: \"$.body\"\n                    MaxConcurrency: 10\n                    Retry:\n                      - ErrorEquals: [\"States.ALL\"]\n                        BackoffRate: 1\n                        IntervalSeconds: 6\n                        MaxAttempts: 6\n\n              - StartAt: Wait\n                States:\n                  Wait:\n                    Type: Wait\n                    Seconds: 25\n                    Next: GetOrderB2B\n\n                  GetOrderB2B:\n                    Type: Task\n                    Resource: \"arn:aws:states:::lambda:invoke\"\n                    OutputPath: \"$.Payload\"\n                    Parameters:\n                      Payload.$: \"$\"\n                      FunctionName: \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetOrderB2B:$LATEST\"\n                    Retry:\n                      - ErrorEquals: [\"States.ALL\"]\n                        IntervalSeconds: 6\n                        MaxAttempts: 6\n                        BackoffRate: 2\n                    Next: GetBillTo\n\n                  GetBillTo:\n                    Type: Task\n                    Resource: \"arn:aws:states:::lambda:invoke\"\n                    OutputPath: \"$.Payload\"\n                    Parameters:\n                      Payload.$: \"$\"\n                      FunctionName: \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetBillToB2B:$LATEST\"\n                    Retry:\n                      - ErrorEquals: [\"States.ALL\"]\n                        IntervalSeconds: 6\n                        MaxAttempts: 6\n                        BackoffRate: 2\n                    End: true\n\n              - StartAt: GetCustomerMessage\n                States:\n                  GetCustomerMessage:\n                    Type: Task\n                    Resource: \"arn:aws:states:::lambda:invoke\"\n                    OutputPath: \"$.Payload\"\n                    Parameters:\n                      Payload.$: \"$\"\n                      FunctionName: \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetCustomerMessage:$LATEST\"\n                    Retry:\n                      - ErrorEquals: [\"States.ALL\"]\n                        IntervalSeconds: 6\n                        MaxAttempts: 6\n                        BackoffRate: 2\n                    End: true\n            Next: createOrder\n\n          createOrder:\n            Type: Task\n            Resource: \"arn:aws:states:::lambda:invoke\"\n            OutputPath: \"$.Payload\"\n            Parameters:\n              Payload.$: \"$\"\n              FunctionName: \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFcreateOrder:$LATEST\"\n            Retry:\n              - ErrorEquals: [\"States.ALL\"]\n                IntervalSeconds: 6\n                MaxAttempts: 6\n                BackoffRate: 2\n            Next: Error 400\n\n          Error 400:\n            Type: Choice\n            Choices:\n              - Variable: \"$.body.status\"\n                NumericEquals: 200\n                Next: Orden Creada\n              - Variable: \"$.body.status\"\n                NumericEquals: 600\n                Comment: \"Pedido Duplicado 600\"\n                Next: Pedido Duplicado\n            Default: CancelOrder\n\n          CancelOrder:\n            Type: Task\n            Resource: \"arn:aws:states:::lambda:invoke\"\n            OutputPath: \"$.Payload\"\n            Parameters:\n              Payload.$: \"$\"\n              FunctionName: \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFcancelarOrden:$LATEST\"\n            Retry:\n              - ErrorEquals: [\"States.ALL\"]\n                IntervalSeconds: 6\n                MaxAttempts: 6\n                BackoffRate: 2\n            Next: Fail\n\n          Pedido Duplicado:\n            Type: Fail\n\n          Orden Creada:\n            Type: Succeed\n\n          Fail:\n            Type: Fail\n",
     "command": [
       "deploy"
     ],
@@ -2686,7 +2988,7 @@
     "serviceProviderAwsCfStackName": "my-serverless-step-functions-dev",
     "serviceProviderAwsCfStackId": "arn:aws:cloudformation:us-east-1:243497028053:stack/my-serverless-step-functions-dev/4423ea60-ed91-11ef-85e2-0afffaaac3f1",
     "serviceProviderAwsCfStackCreated": "2025-02-18T00:42:44.224Z",
-    "serviceProviderAwsCfStackUpdated": "2025-02-18T00:54:09.468Z",
+    "serviceProviderAwsCfStackUpdated": "2025-02-18T01:04:16.619Z",
     "serviceProviderAwsCfStackStatus": "UPDATE_ROLLBACK_COMPLETE",
     "serviceProviderAwsCfStackOutputs": [
       {
@@ -2760,6 +3062,1219 @@
         "OutputValue": "serverless-framework-deployments-us-east-1-cc71c788-7df0",
         "ExportName": "sls-my-serverless-step-functions-dev-ServerlessDeploymentBucketName"
       }
-    ]
+    ],
+    "compiledCloudFormationTemplate": {
+      "AWSTemplateFormatVersion": "2010-09-09",
+      "Description": "The AWS CloudFormation template for this Serverless application",
+      "Resources": {
+        "RegisterUserLogGroup": {
+          "Type": "AWS::Logs::LogGroup",
+          "Properties": {
+            "LogGroupName": "/aws/lambda/my-serverless-step-functions-dev-registerUser"
+          }
+        },
+        "FirstFunctionLogGroup": {
+          "Type": "AWS::Logs::LogGroup",
+          "Properties": {
+            "LogGroupName": "/aws/lambda/my-serverless-step-functions-dev-firstFunction"
+          }
+        },
+        "SecondFunctionLogGroup": {
+          "Type": "AWS::Logs::LogGroup",
+          "Properties": {
+            "LogGroupName": "/aws/lambda/my-serverless-step-functions-dev-secondFunction"
+          }
+        },
+        "GetExecutionStatusLogGroup": {
+          "Type": "AWS::Logs::LogGroup",
+          "Properties": {
+            "LogGroupName": "/aws/lambda/my-serverless-step-functions-dev-getExecutionStatus"
+          }
+        },
+        "PrimeraDespuesDelRegistroLogGroup": {
+          "Type": "AWS::Logs::LogGroup",
+          "Properties": {
+            "LogGroupName": "/aws/lambda/my-serverless-step-functions-dev-primeraDespuesDelRegistro"
+          }
+        },
+        "SegundaDespuesDelRegistroLogGroup": {
+          "Type": "AWS::Logs::LogGroup",
+          "Properties": {
+            "LogGroupName": "/aws/lambda/my-serverless-step-functions-dev-segundaDespuesDelRegistro"
+          }
+        },
+        "StartStateMachineLogGroup": {
+          "Type": "AWS::Logs::LogGroup",
+          "Properties": {
+            "LogGroupName": "/aws/lambda/my-serverless-step-functions-dev-startStateMachine"
+          }
+        },
+        "IamRoleLambdaExecution": {
+          "Type": "AWS::IAM::Role",
+          "Properties": {
+            "AssumeRolePolicyDocument": {
+              "Version": "2012-10-17",
+              "Statement": [
+                {
+                  "Effect": "Allow",
+                  "Principal": {
+                    "Service": [
+                      "lambda.amazonaws.com"
+                    ]
+                  },
+                  "Action": [
+                    "sts:AssumeRole"
+                  ]
+                }
+              ]
+            },
+            "Policies": [
+              {
+                "PolicyName": {
+                  "Fn::Join": [
+                    "-",
+                    [
+                      "my-serverless-step-functions",
+                      "dev",
+                      "lambda"
+                    ]
+                  ]
+                },
+                "PolicyDocument": {
+                  "Version": "2012-10-17",
+                  "Statement": [
+                    {
+                      "Effect": "Allow",
+                      "Action": [
+                        "logs:CreateLogStream",
+                        "logs:CreateLogGroup",
+                        "logs:TagResource"
+                      ],
+                      "Resource": [
+                        {
+                          "Fn::Sub": "arn:${AWS::Partition}:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/my-serverless-step-functions-dev*:*"
+                        }
+                      ]
+                    },
+                    {
+                      "Effect": "Allow",
+                      "Action": [
+                        "logs:PutLogEvents"
+                      ],
+                      "Resource": [
+                        {
+                          "Fn::Sub": "arn:${AWS::Partition}:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/my-serverless-step-functions-dev*:*:*"
+                        }
+                      ]
+                    },
+                    {
+                      "Effect": "Allow",
+                      "Action": [
+                        "states:DescribeExecution",
+                        "states:StartExecution"
+                      ],
+                      "Resource": "*"
+                    },
+                    {
+                      "Effect": "Allow",
+                      "Action": [
+                        "dynamodb:PutItem"
+                      ],
+                      "Resource": "arn:aws:dynamodb:us-east-1:*:table/Users"
+                    }
+                  ]
+                }
+              }
+            ],
+            "Path": "/",
+            "RoleName": {
+              "Fn::Join": [
+                "-",
+                [
+                  "my-serverless-step-functions",
+                  "dev",
+                  {
+                    "Ref": "AWS::Region"
+                  },
+                  "lambdaRole"
+                ]
+              ]
+            }
+          }
+        },
+        "RegisterUserLambdaFunction": {
+          "Type": "AWS::Lambda::Function",
+          "Properties": {
+            "Code": {
+              "S3Bucket": "serverless-framework-deployments-us-east-1-cc71c788-7df0",
+              "S3Key": "serverless/my-serverless-step-functions/dev/1739845260442-2025-02-18T02:21:00.442Z/my-serverless-step-functions.zip"
+            },
+            "Handler": "handler.registerUser",
+            "Runtime": "nodejs18.x",
+            "FunctionName": "my-serverless-step-functions-dev-registerUser",
+            "MemorySize": 1024,
+            "Timeout": 6,
+            "Role": {
+              "Fn::GetAtt": [
+                "IamRoleLambdaExecution",
+                "Arn"
+              ]
+            }
+          },
+          "DependsOn": [
+            "RegisterUserLogGroup"
+          ]
+        },
+        "FirstFunctionLambdaFunction": {
+          "Type": "AWS::Lambda::Function",
+          "Properties": {
+            "Code": {
+              "S3Bucket": "serverless-framework-deployments-us-east-1-cc71c788-7df0",
+              "S3Key": "serverless/my-serverless-step-functions/dev/1739845260442-2025-02-18T02:21:00.442Z/my-serverless-step-functions.zip"
+            },
+            "Handler": "handler.firstFunction",
+            "Runtime": "nodejs18.x",
+            "FunctionName": "my-serverless-step-functions-dev-firstFunction",
+            "MemorySize": 1024,
+            "Timeout": 6,
+            "Role": {
+              "Fn::GetAtt": [
+                "IamRoleLambdaExecution",
+                "Arn"
+              ]
+            }
+          },
+          "DependsOn": [
+            "FirstFunctionLogGroup"
+          ]
+        },
+        "SecondFunctionLambdaFunction": {
+          "Type": "AWS::Lambda::Function",
+          "Properties": {
+            "Code": {
+              "S3Bucket": "serverless-framework-deployments-us-east-1-cc71c788-7df0",
+              "S3Key": "serverless/my-serverless-step-functions/dev/1739845260442-2025-02-18T02:21:00.442Z/my-serverless-step-functions.zip"
+            },
+            "Handler": "handler.secondFunction",
+            "Runtime": "nodejs18.x",
+            "FunctionName": "my-serverless-step-functions-dev-secondFunction",
+            "MemorySize": 1024,
+            "Timeout": 6,
+            "Role": {
+              "Fn::GetAtt": [
+                "IamRoleLambdaExecution",
+                "Arn"
+              ]
+            }
+          },
+          "DependsOn": [
+            "SecondFunctionLogGroup"
+          ]
+        },
+        "GetExecutionStatusLambdaFunction": {
+          "Type": "AWS::Lambda::Function",
+          "Properties": {
+            "Code": {
+              "S3Bucket": "serverless-framework-deployments-us-east-1-cc71c788-7df0",
+              "S3Key": "serverless/my-serverless-step-functions/dev/1739845260442-2025-02-18T02:21:00.442Z/my-serverless-step-functions.zip"
+            },
+            "Handler": "handler.getExecutionStatus",
+            "Runtime": "nodejs18.x",
+            "FunctionName": "my-serverless-step-functions-dev-getExecutionStatus",
+            "MemorySize": 1024,
+            "Timeout": 6,
+            "Role": {
+              "Fn::GetAtt": [
+                "IamRoleLambdaExecution",
+                "Arn"
+              ]
+            }
+          },
+          "DependsOn": [
+            "GetExecutionStatusLogGroup"
+          ]
+        },
+        "PrimeraDespuesDelRegistroLambdaFunction": {
+          "Type": "AWS::Lambda::Function",
+          "Properties": {
+            "Code": {
+              "S3Bucket": "serverless-framework-deployments-us-east-1-cc71c788-7df0",
+              "S3Key": "serverless/my-serverless-step-functions/dev/1739845260442-2025-02-18T02:21:00.442Z/my-serverless-step-functions.zip"
+            },
+            "Handler": "handler.primeraDespuesDelRegistro",
+            "Runtime": "nodejs18.x",
+            "FunctionName": "my-serverless-step-functions-dev-primeraDespuesDelRegistro",
+            "MemorySize": 1024,
+            "Timeout": 6,
+            "Role": {
+              "Fn::GetAtt": [
+                "IamRoleLambdaExecution",
+                "Arn"
+              ]
+            }
+          },
+          "DependsOn": [
+            "PrimeraDespuesDelRegistroLogGroup"
+          ]
+        },
+        "SegundaDespuesDelRegistroLambdaFunction": {
+          "Type": "AWS::Lambda::Function",
+          "Properties": {
+            "Code": {
+              "S3Bucket": "serverless-framework-deployments-us-east-1-cc71c788-7df0",
+              "S3Key": "serverless/my-serverless-step-functions/dev/1739845260442-2025-02-18T02:21:00.442Z/my-serverless-step-functions.zip"
+            },
+            "Handler": "handler.segundaDespuesDelRegistro",
+            "Runtime": "nodejs18.x",
+            "FunctionName": "my-serverless-step-functions-dev-segundaDespuesDelRegistro",
+            "MemorySize": 1024,
+            "Timeout": 6,
+            "Role": {
+              "Fn::GetAtt": [
+                "IamRoleLambdaExecution",
+                "Arn"
+              ]
+            }
+          },
+          "DependsOn": [
+            "SegundaDespuesDelRegistroLogGroup"
+          ]
+        },
+        "StartStateMachineLambdaFunction": {
+          "Type": "AWS::Lambda::Function",
+          "Properties": {
+            "Code": {
+              "S3Bucket": "serverless-framework-deployments-us-east-1-cc71c788-7df0",
+              "S3Key": "serverless/my-serverless-step-functions/dev/1739845260442-2025-02-18T02:21:00.442Z/my-serverless-step-functions.zip"
+            },
+            "Handler": "handler.startStateMachine",
+            "Runtime": "nodejs18.x",
+            "FunctionName": "my-serverless-step-functions-dev-startStateMachine",
+            "MemorySize": 1024,
+            "Timeout": 6,
+            "Role": {
+              "Fn::GetAtt": [
+                "IamRoleLambdaExecution",
+                "Arn"
+              ]
+            }
+          },
+          "DependsOn": [
+            "StartStateMachineLogGroup"
+          ]
+        },
+        "RegisterUserLambdaVersion5YEn4hrpnkWetckrl2Pcwu2p1g52C3rHX3xQzP7Sz3M": {
+          "Type": "AWS::Lambda::Version",
+          "DeletionPolicy": "Retain",
+          "Properties": {
+            "FunctionName": {
+              "Ref": "RegisterUserLambdaFunction"
+            },
+            "CodeSha256": "iAYrGYrHkBl2MF5mLwyULXesdBAAnkq6bc6eNNW+mn4="
+          }
+        },
+        "FirstFunctionLambdaVersionLfO8RJIwSHNwHkzNiHBTT73YuaR2VGpR5sxh4ga493w": {
+          "Type": "AWS::Lambda::Version",
+          "DeletionPolicy": "Retain",
+          "Properties": {
+            "FunctionName": {
+              "Ref": "FirstFunctionLambdaFunction"
+            },
+            "CodeSha256": "iAYrGYrHkBl2MF5mLwyULXesdBAAnkq6bc6eNNW+mn4="
+          }
+        },
+        "SecondFunctionLambdaVersionZ4xCgNEBqSK1D6uy9NbVDCGW5YDHit2P01GLDFWeAXI": {
+          "Type": "AWS::Lambda::Version",
+          "DeletionPolicy": "Retain",
+          "Properties": {
+            "FunctionName": {
+              "Ref": "SecondFunctionLambdaFunction"
+            },
+            "CodeSha256": "iAYrGYrHkBl2MF5mLwyULXesdBAAnkq6bc6eNNW+mn4="
+          }
+        },
+        "GetExecutionStatusLambdaVersionMGzMpqxyN6krKS2ZimdsouEjWaw0tH3nIBXuizHg": {
+          "Type": "AWS::Lambda::Version",
+          "DeletionPolicy": "Retain",
+          "Properties": {
+            "FunctionName": {
+              "Ref": "GetExecutionStatusLambdaFunction"
+            },
+            "CodeSha256": "iAYrGYrHkBl2MF5mLwyULXesdBAAnkq6bc6eNNW+mn4="
+          }
+        },
+        "PrimeraDespuesDelRegistroLambdaVersionhf5Mdmnlr2mFV1lu687JnxzHsqyQwR9ucKV0gJCT780": {
+          "Type": "AWS::Lambda::Version",
+          "DeletionPolicy": "Retain",
+          "Properties": {
+            "FunctionName": {
+              "Ref": "PrimeraDespuesDelRegistroLambdaFunction"
+            },
+            "CodeSha256": "iAYrGYrHkBl2MF5mLwyULXesdBAAnkq6bc6eNNW+mn4="
+          }
+        },
+        "SegundaDespuesDelRegistroLambdaVersionkmAYCOBFvTZL0zWfDwHbPCPorwsdmEbFx4nQMIL4": {
+          "Type": "AWS::Lambda::Version",
+          "DeletionPolicy": "Retain",
+          "Properties": {
+            "FunctionName": {
+              "Ref": "SegundaDespuesDelRegistroLambdaFunction"
+            },
+            "CodeSha256": "iAYrGYrHkBl2MF5mLwyULXesdBAAnkq6bc6eNNW+mn4="
+          }
+        },
+        "StartStateMachineLambdaVersion6IX2SLicGczz62Inb8CZlwZHAgYq5PP3kK5gZBa9T8": {
+          "Type": "AWS::Lambda::Version",
+          "DeletionPolicy": "Retain",
+          "Properties": {
+            "FunctionName": {
+              "Ref": "StartStateMachineLambdaFunction"
+            },
+            "CodeSha256": "iAYrGYrHkBl2MF5mLwyULXesdBAAnkq6bc6eNNW+mn4="
+          }
+        },
+        "UserRegistrationFlowStepFunctionsStateMachineRole": {
+          "Type": "AWS::IAM::Role",
+          "Properties": {
+            "AssumeRolePolicyDocument": {
+              "Version": "2012-10-17",
+              "Statement": [
+                {
+                  "Effect": "Allow",
+                  "Principal": {
+                    "Service": {
+                      "Fn::Sub": "states.${AWS::Region}.amazonaws.com"
+                    }
+                  },
+                  "Action": "sts:AssumeRole"
+                }
+              ]
+            },
+            "Policies": [
+              {
+                "PolicyName": "dev-my-serverless-step-functions-statemachine",
+                "PolicyDocument": {
+                  "Version": "2012-10-17",
+                  "Statement": [
+                    {
+                      "Effect": "Allow",
+                      "Action": [
+                        "lambda:InvokeFunction"
+                      ],
+                      "Resource": [
+                        {
+                          "Fn::GetAtt": [
+                            "PrimeraDespuesDelRegistroLambdaFunction",
+                            "Arn"
+                          ]
+                        },
+                        {
+                          "Fn::Sub": [
+                            "${functionArn}:*",
+                            {
+                              "functionArn": {
+                                "Fn::GetAtt": [
+                                  "PrimeraDespuesDelRegistroLambdaFunction",
+                                  "Arn"
+                                ]
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "Fn::GetAtt": [
+                            "SegundaDespuesDelRegistroLambdaFunction",
+                            "Arn"
+                          ]
+                        },
+                        {
+                          "Fn::Sub": [
+                            "${functionArn}:*",
+                            {
+                              "functionArn": {
+                                "Fn::GetAtt": [
+                                  "SegundaDespuesDelRegistroLambdaFunction",
+                                  "Arn"
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "MyStateMachineStepFunctionsStateMachineRole": {
+          "Type": "AWS::IAM::Role",
+          "Properties": {
+            "AssumeRolePolicyDocument": {
+              "Version": "2012-10-17",
+              "Statement": [
+                {
+                  "Effect": "Allow",
+                  "Principal": {
+                    "Service": {
+                      "Fn::Sub": "states.${AWS::Region}.amazonaws.com"
+                    }
+                  },
+                  "Action": "sts:AssumeRole"
+                }
+              ]
+            },
+            "Policies": [
+              {
+                "PolicyName": "dev-my-serverless-step-functions-statemachine",
+                "PolicyDocument": {
+                  "Version": "2012-10-17",
+                  "Statement": [
+                    {
+                      "Effect": "Allow",
+                      "Action": [
+                        "lambda:InvokeFunction"
+                      ],
+                      "Resource": [
+                        {
+                          "Fn::GetAtt": [
+                            "FirstFunctionLambdaFunction",
+                            "Arn"
+                          ]
+                        },
+                        {
+                          "Fn::Sub": [
+                            "${functionArn}:*",
+                            {
+                              "functionArn": {
+                                "Fn::GetAtt": [
+                                  "FirstFunctionLambdaFunction",
+                                  "Arn"
+                                ]
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "Fn::GetAtt": [
+                            "SecondFunctionLambdaFunction",
+                            "Arn"
+                          ]
+                        },
+                        {
+                          "Fn::Sub": [
+                            "${functionArn}:*",
+                            {
+                              "functionArn": {
+                                "Fn::GetAtt": [
+                                  "SecondFunctionLambdaFunction",
+                                  "Arn"
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "UpdatePriceListsBCRole": {
+          "Type": "AWS::IAM::Role",
+          "Properties": {
+            "AssumeRolePolicyDocument": {
+              "Version": "2012-10-17",
+              "Statement": [
+                {
+                  "Effect": "Allow",
+                  "Principal": {
+                    "Service": {
+                      "Fn::Sub": "states.${AWS::Region}.amazonaws.com"
+                    }
+                  },
+                  "Action": "sts:AssumeRole"
+                }
+              ]
+            },
+            "Policies": [
+              {
+                "PolicyName": "dev-my-serverless-step-functions-statemachine",
+                "PolicyDocument": {
+                  "Version": "2012-10-17",
+                  "Statement": [
+                    {
+                      "Effect": "Allow",
+                      "Action": [
+                        "lambda:InvokeFunction"
+                      ],
+                      "Resource": [
+                        "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getPriceListsBC:$LATEST",
+                        "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getPriceListsBC:$LATEST:*",
+                        "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getPricesByCustomersAssa:$LATEST",
+                        "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getPricesByCustomersAssa:$LATEST:*"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "CrearOrden2Role": {
+          "Type": "AWS::IAM::Role",
+          "Properties": {
+            "AssumeRolePolicyDocument": {
+              "Version": "2012-10-17",
+              "Statement": [
+                {
+                  "Effect": "Allow",
+                  "Principal": {
+                    "Service": {
+                      "Fn::Sub": "states.${AWS::Region}.amazonaws.com"
+                    }
+                  },
+                  "Action": "sts:AssumeRole"
+                }
+              ]
+            },
+            "Policies": [
+              {
+                "PolicyName": "dev-my-serverless-step-functions-statemachine",
+                "PolicyDocument": {
+                  "Version": "2012-10-17",
+                  "Statement": [
+                    {
+                      "Effect": "Allow",
+                      "Action": [
+                        "lambda:InvokeFunction"
+                      ],
+                      "Resource": [
+                        "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetOrderBC:$LATEST",
+                        "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetOrderBC:$LATEST:*",
+                        "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetProducts:$LATEST",
+                        "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetProducts:$LATEST:*",
+                        "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetAlmacen:$LATEST",
+                        "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetAlmacen:$LATEST:*",
+                        "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetOrderB2B:$LATEST",
+                        "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetOrderB2B:$LATEST:*",
+                        "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetBillToB2B:$LATEST",
+                        "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetBillToB2B:$LATEST:*",
+                        "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetCustomerMessage:$LATEST",
+                        "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetCustomerMessage:$LATEST:*",
+                        "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFcreateOrder:$LATEST",
+                        "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFcreateOrder:$LATEST:*",
+                        "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFcancelarOrden:$LATEST",
+                        "arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFcancelarOrden:$LATEST:*"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "UserRegistrationFlowStepFunctionsStateMachine": {
+          "Type": "AWS::StepFunctions::StateMachine",
+          "Properties": {
+            "DefinitionString": {
+              "Fn::Sub": [
+                "{\n  \"Comment\": \"Step Function que se ejecuta después del registro de usuario\",\n  \"StartAt\": \"PrimeraDespuesDelRegistro\",\n  \"States\": {\n    \"PrimeraDespuesDelRegistro\": {\n      \"Type\": \"Task\",\n      \"Resource\": \"${eb344c04f50e7ec5d5bf54ab9998aee5}\",\n      \"Next\": \"SegundaDespuesDelRegistro\"\n    },\n    \"SegundaDespuesDelRegistro\": {\n      \"Type\": \"Task\",\n      \"Resource\": \"${cdcf0a02b7d2a20d9469c1d34ab43ade}\",\n      \"End\": true\n    }\n  }\n}",
+                {
+                  "eb344c04f50e7ec5d5bf54ab9998aee5": {
+                    "Fn::GetAtt": [
+                      "PrimeraDespuesDelRegistroLambdaFunction",
+                      "Arn"
+                    ]
+                  },
+                  "cdcf0a02b7d2a20d9469c1d34ab43ade": {
+                    "Fn::GetAtt": [
+                      "SegundaDespuesDelRegistroLambdaFunction",
+                      "Arn"
+                    ]
+                  }
+                }
+              ]
+            },
+            "RoleArn": {
+              "Fn::GetAtt": [
+                "UserRegistrationFlowStepFunctionsStateMachineRole",
+                "Arn"
+              ]
+            }
+          },
+          "DependsOn": [
+            "UserRegistrationFlowStepFunctionsStateMachineRole"
+          ]
+        },
+        "MyStateMachineStepFunctionsStateMachine": {
+          "Type": "AWS::StepFunctions::StateMachine",
+          "Properties": {
+            "DefinitionString": {
+              "Fn::Sub": [
+                "{\n  \"Comment\": \"Ejemplo de Step Function con API Gateway\",\n  \"StartAt\": \"FirstStep\",\n  \"States\": {\n    \"FirstStep\": {\n      \"Type\": \"Task\",\n      \"Resource\": \"${9fd299087cac7a119b9182bb17220ab0}\",\n      \"Next\": \"SecondStep\"\n    },\n    \"SecondStep\": {\n      \"Type\": \"Task\",\n      \"Resource\": \"${562e85854b6de52ff321b4a445778d97}\",\n      \"End\": true\n    }\n  }\n}",
+                {
+                  "9fd299087cac7a119b9182bb17220ab0": {
+                    "Fn::GetAtt": [
+                      "FirstFunctionLambdaFunction",
+                      "Arn"
+                    ]
+                  },
+                  "562e85854b6de52ff321b4a445778d97": {
+                    "Fn::GetAtt": [
+                      "SecondFunctionLambdaFunction",
+                      "Arn"
+                    ]
+                  }
+                }
+              ]
+            },
+            "RoleArn": {
+              "Fn::GetAtt": [
+                "MyStateMachineStepFunctionsStateMachineRole",
+                "Arn"
+              ]
+            }
+          },
+          "DependsOn": [
+            "MyStateMachineStepFunctionsStateMachineRole"
+          ]
+        },
+        "UpdatePriceListsBC": {
+          "Type": "AWS::StepFunctions::StateMachine",
+          "Properties": {
+            "DefinitionString": "{\n  \"Comment\": \"State machine to update price lists.\",\n  \"StartAt\": \"getPriceListsBC\",\n  \"States\": {\n    \"getPriceListsBC\": {\n      \"Type\": \"Task\",\n      \"Resource\": \"arn:aws:states:::lambda:invoke\",\n      \"OutputPath\": \"$.Payload.body.data\",\n      \"Parameters\": {\n        \"FunctionName\": \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getPriceListsBC:$LATEST\",\n        \"Payload\": {\n          \"limit\": \"1000\"\n        }\n      },\n      \"Retry\": [\n        {\n          \"ErrorEquals\": [\n            \"States.ALL\"\n          ],\n          \"IntervalSeconds\": 6,\n          \"MaxAttempts\": 6,\n          \"BackoffRate\": 2\n        }\n      ],\n      \"Next\": \"IteratePriceLists\"\n    },\n    \"IteratePriceLists\": {\n      \"Type\": \"Map\",\n      \"ItemProcessor\": {\n        \"ProcessorConfig\": {\n          \"Mode\": \"INLINE\"\n        },\n        \"StartAt\": \"getPricesByCustomersAssa\",\n        \"States\": {\n          \"getPricesByCustomersAssa\": {\n            \"Type\": \"Task\",\n            \"Resource\": \"arn:aws:states:::lambda:invoke\",\n            \"Parameters\": {\n              \"Payload.$\": \"$\",\n              \"FunctionName\": \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getPricesByCustomersAssa:$LATEST\"\n            },\n            \"Retry\": [\n              {\n                \"ErrorEquals\": [\n                  \"States.ALL\"\n                ],\n                \"IntervalSeconds\": 6,\n                \"MaxAttempts\": 6,\n                \"BackoffRate\": 2\n              }\n            ],\n            \"OutputPath\": \"$.Payload.body\",\n            \"End\": true\n          }\n        }\n      },\n      \"End\": true,\n      \"ItemSelector\": {\n        \"billTo.$\": \"$$.Map.Item.Value.billTo\",\n        \"price_list_id.$\": \"$$.Map.Item.Value.price_list_id\"\n      },\n      \"ResultSelector\": {},\n      \"MaxConcurrency\": 1\n    }\n  }\n}",
+            "RoleArn": {
+              "Fn::GetAtt": [
+                "UpdatePriceListsBCRole",
+                "Arn"
+              ]
+            },
+            "StateMachineName": "UpdatePriceListsBC"
+          },
+          "DependsOn": [
+            "UpdatePriceListsBCRole"
+          ]
+        },
+        "CrearOrden2": {
+          "Type": "AWS::StepFunctions::StateMachine",
+          "Properties": {
+            "DefinitionString": "{\n  \"Comment\": \"A description of my state machine\",\n  \"StartAt\": \"Wait (1)\",\n  \"States\": {\n    \"Wait (1)\": {\n      \"Type\": \"Wait\",\n      \"Seconds\": 220,\n      \"Next\": \"GetOrderBC\"\n    },\n    \"GetOrderBC\": {\n      \"Type\": \"Task\",\n      \"Resource\": \"arn:aws:states:::lambda:invoke\",\n      \"OutputPath\": \"$.Payload\",\n      \"Parameters\": {\n        \"Payload.$\": \"$\",\n        \"FunctionName\": \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetOrderBC:$LATEST\"\n      },\n      \"Retry\": [\n        {\n          \"ErrorEquals\": [\n            \"Lambda.ServiceException\",\n            \"Lambda.AWSLambdaException\",\n            \"Lambda.SdkClientException\",\n            \"Lambda.TooManyRequestsException\"\n          ],\n          \"IntervalSeconds\": 1,\n          \"MaxAttempts\": 3,\n          \"BackoffRate\": 2\n        }\n      ],\n      \"Next\": \"Parallel\"\n    },\n    \"Parallel\": {\n      \"Type\": \"Parallel\",\n      \"Branches\": [\n        {\n          \"StartAt\": \"GetProductsBC\",\n          \"States\": {\n            \"GetProductsBC\": {\n              \"Type\": \"Task\",\n              \"Resource\": \"arn:aws:states:::lambda:invoke\",\n              \"Parameters\": {\n                \"Payload.$\": \"$\",\n                \"FunctionName\": \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetProducts:$LATEST\"\n              },\n              \"Retry\": [\n                {\n                  \"ErrorEquals\": [\n                    \"States.ALL\"\n                  ],\n                  \"IntervalSeconds\": 6,\n                  \"MaxAttempts\": 6,\n                  \"BackoffRate\": 2\n                }\n              ],\n              \"Next\": \"Map\",\n              \"OutputPath\": \"$.Payload\"\n            },\n            \"Map\": {\n              \"Type\": \"Map\",\n              \"End\": true,\n              \"Iterator\": {\n                \"StartAt\": \"GetAlmacen\",\n                \"States\": {\n                  \"GetAlmacen\": {\n                    \"Type\": \"Task\",\n                    \"Resource\": \"arn:aws:states:::lambda:invoke\",\n                    \"OutputPath\": \"$.Payload\",\n                    \"Parameters\": {\n                      \"Payload.$\": \"$\",\n                      \"FunctionName\": \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetAlmacen:$LATEST\"\n                    },\n                    \"Retry\": [\n                      {\n                        \"ErrorEquals\": [\n                          \"States.ALL\"\n                        ],\n                        \"IntervalSeconds\": 6,\n                        \"MaxAttempts\": 6,\n                        \"BackoffRate\": 2\n                      }\n                    ],\n                    \"End\": true\n                  }\n                }\n              },\n              \"ItemsPath\": \"$.body\",\n              \"MaxConcurrency\": 10,\n              \"Retry\": [\n                {\n                  \"ErrorEquals\": [\n                    \"States.ALL\"\n                  ],\n                  \"BackoffRate\": 1,\n                  \"IntervalSeconds\": 6,\n                  \"MaxAttempts\": 6\n                }\n              ]\n            }\n          }\n        },\n        {\n          \"StartAt\": \"Wait\",\n          \"States\": {\n            \"Wait\": {\n              \"Type\": \"Wait\",\n              \"Seconds\": 25,\n              \"Next\": \"GetOrderB2B\"\n            },\n            \"GetOrderB2B\": {\n              \"Type\": \"Task\",\n              \"Resource\": \"arn:aws:states:::lambda:invoke\",\n              \"OutputPath\": \"$.Payload\",\n              \"Parameters\": {\n                \"Payload.$\": \"$\",\n                \"FunctionName\": \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetOrderB2B:$LATEST\"\n              },\n              \"Retry\": [\n                {\n                  \"ErrorEquals\": [\n                    \"States.ALL\"\n                  ],\n                  \"IntervalSeconds\": 6,\n                  \"MaxAttempts\": 6,\n                  \"BackoffRate\": 2\n                }\n              ],\n              \"Next\": \"GetBillTo\"\n            },\n            \"GetBillTo\": {\n              \"Type\": \"Task\",\n              \"Resource\": \"arn:aws:states:::lambda:invoke\",\n              \"OutputPath\": \"$.Payload\",\n              \"Parameters\": {\n                \"Payload.$\": \"$\",\n                \"FunctionName\": \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetBillToB2B:$LATEST\"\n              },\n              \"Retry\": [\n                {\n                  \"ErrorEquals\": [\n                    \"States.ALL\"\n                  ],\n                  \"IntervalSeconds\": 6,\n                  \"MaxAttempts\": 6,\n                  \"BackoffRate\": 2\n                }\n              ],\n              \"End\": true\n            }\n          }\n        },\n        {\n          \"StartAt\": \"GetCustomerMessage\",\n          \"States\": {\n            \"GetCustomerMessage\": {\n              \"Type\": \"Task\",\n              \"Resource\": \"arn:aws:states:::lambda:invoke\",\n              \"OutputPath\": \"$.Payload\",\n              \"Parameters\": {\n                \"Payload.$\": \"$\",\n                \"FunctionName\": \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFgetCustomerMessage:$LATEST\"\n              },\n              \"Retry\": [\n                {\n                  \"ErrorEquals\": [\n                    \"States.ALL\"\n                  ],\n                  \"IntervalSeconds\": 6,\n                  \"MaxAttempts\": 6,\n                  \"BackoffRate\": 2\n                }\n              ],\n              \"End\": true\n            }\n          }\n        }\n      ],\n      \"Next\": \"createOrder\"\n    },\n    \"createOrder\": {\n      \"Type\": \"Task\",\n      \"Resource\": \"arn:aws:states:::lambda:invoke\",\n      \"OutputPath\": \"$.Payload\",\n      \"Parameters\": {\n        \"Payload.$\": \"$\",\n        \"FunctionName\": \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFcreateOrder:$LATEST\"\n      },\n      \"Retry\": [\n        {\n          \"ErrorEquals\": [\n            \"States.ALL\"\n          ],\n          \"IntervalSeconds\": 6,\n          \"MaxAttempts\": 6,\n          \"BackoffRate\": 2\n        }\n      ],\n      \"Next\": \"Error 400\"\n    },\n    \"Error 400\": {\n      \"Type\": \"Choice\",\n      \"Choices\": [\n        {\n          \"Variable\": \"$.body.status\",\n          \"NumericEquals\": 200,\n          \"Next\": \"Orden Creada\"\n        },\n        {\n          \"Variable\": \"$.body.status\",\n          \"NumericEquals\": 600,\n          \"Comment\": \"Pedido Duplicado 600\",\n          \"Next\": \"Pedido Duplicado\"\n        }\n      ],\n      \"Default\": \"CancelOrder\"\n    },\n    \"CancelOrder\": {\n      \"Type\": \"Task\",\n      \"Resource\": \"arn:aws:states:::lambda:invoke\",\n      \"OutputPath\": \"$.Payload\",\n      \"Parameters\": {\n        \"Payload.$\": \"$\",\n        \"FunctionName\": \"arn:aws:lambda:us-east-1:777933978536:function:assaabloy-qa-getSFcancelarOrden:$LATEST\"\n      },\n      \"Retry\": [\n        {\n          \"ErrorEquals\": [\n            \"States.ALL\"\n          ],\n          \"IntervalSeconds\": 6,\n          \"MaxAttempts\": 6,\n          \"BackoffRate\": 2\n        }\n      ],\n      \"Next\": \"Fail\"\n    },\n    \"Pedido Duplicado\": {\n      \"Type\": \"Fail\"\n    },\n    \"Orden Creada\": {\n      \"Type\": \"Succeed\"\n    },\n    \"Fail\": {\n      \"Type\": \"Fail\"\n    }\n  }\n}",
+            "RoleArn": {
+              "Fn::GetAtt": [
+                "CrearOrden2Role",
+                "Arn"
+              ]
+            },
+            "StateMachineName": "CrearOrden2"
+          },
+          "DependsOn": [
+            "CrearOrden2Role"
+          ]
+        },
+        "ApiGatewayRestApi": {
+          "Type": "AWS::ApiGateway::RestApi",
+          "Properties": {
+            "Name": "dev-my-serverless-step-functions",
+            "EndpointConfiguration": {
+              "Types": [
+                "EDGE"
+              ]
+            },
+            "Policy": ""
+          }
+        },
+        "ApiGatewayResourceRegister": {
+          "Type": "AWS::ApiGateway::Resource",
+          "Properties": {
+            "ParentId": {
+              "Fn::GetAtt": [
+                "ApiGatewayRestApi",
+                "RootResourceId"
+              ]
+            },
+            "PathPart": "register",
+            "RestApiId": {
+              "Ref": "ApiGatewayRestApi"
+            }
+          }
+        },
+        "ApiGatewayResourceStatus": {
+          "Type": "AWS::ApiGateway::Resource",
+          "Properties": {
+            "ParentId": {
+              "Fn::GetAtt": [
+                "ApiGatewayRestApi",
+                "RootResourceId"
+              ]
+            },
+            "PathPart": "status",
+            "RestApiId": {
+              "Ref": "ApiGatewayRestApi"
+            }
+          }
+        },
+        "ApiGatewayResourceStart": {
+          "Type": "AWS::ApiGateway::Resource",
+          "Properties": {
+            "ParentId": {
+              "Fn::GetAtt": [
+                "ApiGatewayRestApi",
+                "RootResourceId"
+              ]
+            },
+            "PathPart": "start",
+            "RestApiId": {
+              "Ref": "ApiGatewayRestApi"
+            }
+          }
+        },
+        "ApiGatewayMethodRegisterOptions": {
+          "Type": "AWS::ApiGateway::Method",
+          "Properties": {
+            "AuthorizationType": "NONE",
+            "HttpMethod": "OPTIONS",
+            "MethodResponses": [
+              {
+                "StatusCode": "200",
+                "ResponseParameters": {
+                  "method.response.header.Access-Control-Allow-Origin": true,
+                  "method.response.header.Access-Control-Allow-Headers": true,
+                  "method.response.header.Access-Control-Allow-Methods": true
+                },
+                "ResponseModels": {}
+              }
+            ],
+            "RequestParameters": {},
+            "Integration": {
+              "Type": "MOCK",
+              "RequestTemplates": {
+                "application/json": "{statusCode:200}"
+              },
+              "ContentHandling": "CONVERT_TO_TEXT",
+              "IntegrationResponses": [
+                {
+                  "StatusCode": "200",
+                  "ResponseParameters": {
+                    "method.response.header.Access-Control-Allow-Origin": "'*'",
+                    "method.response.header.Access-Control-Allow-Headers": "'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-User-Agent,X-Amzn-Trace-Id'",
+                    "method.response.header.Access-Control-Allow-Methods": "'OPTIONS,POST'"
+                  },
+                  "ResponseTemplates": {
+                    "application/json": ""
+                  }
+                }
+              ]
+            },
+            "ResourceId": {
+              "Ref": "ApiGatewayResourceRegister"
+            },
+            "RestApiId": {
+              "Ref": "ApiGatewayRestApi"
+            }
+          }
+        },
+        "ApiGatewayMethodRegisterPost": {
+          "Type": "AWS::ApiGateway::Method",
+          "Properties": {
+            "HttpMethod": "POST",
+            "RequestParameters": {},
+            "ResourceId": {
+              "Ref": "ApiGatewayResourceRegister"
+            },
+            "RestApiId": {
+              "Ref": "ApiGatewayRestApi"
+            },
+            "ApiKeyRequired": "<REDACTED>",
+            "AuthorizationType": "NONE",
+            "Integration": {
+              "IntegrationHttpMethod": "POST",
+              "Type": "AWS_PROXY",
+              "Uri": {
+                "Fn::Join": [
+                  "",
+                  [
+                    "arn:",
+                    {
+                      "Ref": "AWS::Partition"
+                    },
+                    ":apigateway:",
+                    {
+                      "Ref": "AWS::Region"
+                    },
+                    ":lambda:path/2015-03-31/functions/",
+                    {
+                      "Fn::GetAtt": [
+                        "RegisterUserLambdaFunction",
+                        "Arn"
+                      ]
+                    },
+                    "/invocations"
+                  ]
+                ]
+              }
+            },
+            "MethodResponses": []
+          },
+          "DependsOn": [
+            "RegisterUserLambdaPermissionApiGateway"
+          ]
+        },
+        "ApiGatewayMethodStatusGet": {
+          "Type": "AWS::ApiGateway::Method",
+          "Properties": {
+            "HttpMethod": "GET",
+            "RequestParameters": {},
+            "ResourceId": {
+              "Ref": "ApiGatewayResourceStatus"
+            },
+            "RestApiId": {
+              "Ref": "ApiGatewayRestApi"
+            },
+            "ApiKeyRequired": "<REDACTED>",
+            "AuthorizationType": "NONE",
+            "Integration": {
+              "IntegrationHttpMethod": "POST",
+              "Type": "AWS_PROXY",
+              "Uri": {
+                "Fn::Join": [
+                  "",
+                  [
+                    "arn:",
+                    {
+                      "Ref": "AWS::Partition"
+                    },
+                    ":apigateway:",
+                    {
+                      "Ref": "AWS::Region"
+                    },
+                    ":lambda:path/2015-03-31/functions/",
+                    {
+                      "Fn::GetAtt": [
+                        "GetExecutionStatusLambdaFunction",
+                        "Arn"
+                      ]
+                    },
+                    "/invocations"
+                  ]
+                ]
+              }
+            },
+            "MethodResponses": []
+          },
+          "DependsOn": [
+            "GetExecutionStatusLambdaPermissionApiGateway"
+          ]
+        },
+        "ApiGatewayMethodStartPost": {
+          "Type": "AWS::ApiGateway::Method",
+          "Properties": {
+            "HttpMethod": "POST",
+            "RequestParameters": {},
+            "ResourceId": {
+              "Ref": "ApiGatewayResourceStart"
+            },
+            "RestApiId": {
+              "Ref": "ApiGatewayRestApi"
+            },
+            "ApiKeyRequired": "<REDACTED>",
+            "AuthorizationType": "NONE",
+            "Integration": {
+              "IntegrationHttpMethod": "POST",
+              "Type": "AWS_PROXY",
+              "Uri": {
+                "Fn::Join": [
+                  "",
+                  [
+                    "arn:",
+                    {
+                      "Ref": "AWS::Partition"
+                    },
+                    ":apigateway:",
+                    {
+                      "Ref": "AWS::Region"
+                    },
+                    ":lambda:path/2015-03-31/functions/",
+                    {
+                      "Fn::GetAtt": [
+                        "StartStateMachineLambdaFunction",
+                        "Arn"
+                      ]
+                    },
+                    "/invocations"
+                  ]
+                ]
+              }
+            },
+            "MethodResponses": []
+          },
+          "DependsOn": [
+            "StartStateMachineLambdaPermissionApiGateway"
+          ]
+        },
+        "ApiGatewayDeployment1739845251641": {
+          "Type": "AWS::ApiGateway::Deployment",
+          "Properties": {
+            "RestApiId": {
+              "Ref": "ApiGatewayRestApi"
+            },
+            "StageName": "dev"
+          },
+          "DependsOn": [
+            "ApiGatewayMethodRegisterOptions",
+            "ApiGatewayMethodRegisterPost",
+            "ApiGatewayMethodStatusGet",
+            "ApiGatewayMethodStartPost"
+          ]
+        },
+        "RegisterUserLambdaPermissionApiGateway": {
+          "Type": "AWS::Lambda::Permission",
+          "Properties": {
+            "FunctionName": {
+              "Fn::GetAtt": [
+                "RegisterUserLambdaFunction",
+                "Arn"
+              ]
+            },
+            "Action": "lambda:InvokeFunction",
+            "Principal": "apigateway.amazonaws.com",
+            "SourceArn": {
+              "Fn::Join": [
+                "",
+                [
+                  "arn:",
+                  {
+                    "Ref": "AWS::Partition"
+                  },
+                  ":execute-api:",
+                  {
+                    "Ref": "AWS::Region"
+                  },
+                  ":",
+                  {
+                    "Ref": "AWS::AccountId"
+                  },
+                  ":",
+                  {
+                    "Ref": "ApiGatewayRestApi"
+                  },
+                  "/*/*"
+                ]
+              ]
+            }
+          }
+        },
+        "GetExecutionStatusLambdaPermissionApiGateway": {
+          "Type": "AWS::Lambda::Permission",
+          "Properties": {
+            "FunctionName": {
+              "Fn::GetAtt": [
+                "GetExecutionStatusLambdaFunction",
+                "Arn"
+              ]
+            },
+            "Action": "lambda:InvokeFunction",
+            "Principal": "apigateway.amazonaws.com",
+            "SourceArn": {
+              "Fn::Join": [
+                "",
+                [
+                  "arn:",
+                  {
+                    "Ref": "AWS::Partition"
+                  },
+                  ":execute-api:",
+                  {
+                    "Ref": "AWS::Region"
+                  },
+                  ":",
+                  {
+                    "Ref": "AWS::AccountId"
+                  },
+                  ":",
+                  {
+                    "Ref": "ApiGatewayRestApi"
+                  },
+                  "/*/*"
+                ]
+              ]
+            }
+          }
+        },
+        "StartStateMachineLambdaPermissionApiGateway": {
+          "Type": "AWS::Lambda::Permission",
+          "Properties": {
+            "FunctionName": {
+              "Fn::GetAtt": [
+                "StartStateMachineLambdaFunction",
+                "Arn"
+              ]
+            },
+            "Action": "lambda:InvokeFunction",
+            "Principal": "apigateway.amazonaws.com",
+            "SourceArn": {
+              "Fn::Join": [
+                "",
+                [
+                  "arn:",
+                  {
+                    "Ref": "AWS::Partition"
+                  },
+                  ":execute-api:",
+                  {
+                    "Ref": "AWS::Region"
+                  },
+                  ":",
+                  {
+                    "Ref": "AWS::AccountId"
+                  },
+                  ":",
+                  {
+                    "Ref": "ApiGatewayRestApi"
+                  },
+                  "/*/*"
+                ]
+              ]
+            }
+          }
+        }
+      },
+      "Outputs": {
+        "ServerlessDeploymentBucketName": {
+          "Value": "serverless-framework-deployments-us-east-1-cc71c788-7df0",
+          "Export": {
+            "Name": "sls-my-serverless-step-functions-dev-ServerlessDeploymentBucketName"
+          }
+        },
+        "RegisterUserLambdaFunctionQualifiedArn": {
+          "Description": "Current Lambda function version",
+          "Value": {
+            "Ref": "RegisterUserLambdaVersion5YEn4hrpnkWetckrl2Pcwu2p1g52C3rHX3xQzP7Sz3M"
+          },
+          "Export": {
+            "Name": "sls-my-serverless-step-functions-dev-RegisterUserLambdaFunctionQualifiedArn"
+          }
+        },
+        "FirstFunctionLambdaFunctionQualifiedArn": {
+          "Description": "Current Lambda function version",
+          "Value": {
+            "Ref": "FirstFunctionLambdaVersionLfO8RJIwSHNwHkzNiHBTT73YuaR2VGpR5sxh4ga493w"
+          },
+          "Export": {
+            "Name": "sls-my-serverless-step-functions-dev-FirstFunctionLambdaFunctionQualifiedArn"
+          }
+        },
+        "SecondFunctionLambdaFunctionQualifiedArn": {
+          "Description": "Current Lambda function version",
+          "Value": {
+            "Ref": "SecondFunctionLambdaVersionZ4xCgNEBqSK1D6uy9NbVDCGW5YDHit2P01GLDFWeAXI"
+          },
+          "Export": {
+            "Name": "sls-my-serverless-step-functions-dev-SecondFunctionLambdaFunctionQualifiedArn"
+          }
+        },
+        "GetExecutionStatusLambdaFunctionQualifiedArn": {
+          "Description": "Current Lambda function version",
+          "Value": {
+            "Ref": "GetExecutionStatusLambdaVersionMGzMpqxyN6krKS2ZimdsouEjWaw0tH3nIBXuizHg"
+          },
+          "Export": {
+            "Name": "sls-my-serverless-step-functions-dev-GetExecutionStatusLambdaFunctionQualifiedArn"
+          }
+        },
+        "PrimeraDespuesDelRegistroLambdaFunctionQualifiedArn": {
+          "Description": "Current Lambda function version",
+          "Value": {
+            "Ref": "PrimeraDespuesDelRegistroLambdaVersionhf5Mdmnlr2mFV1lu687JnxzHsqyQwR9ucKV0gJCT780"
+          },
+          "Export": {
+            "Name": "sls-my-serverless-step-functions-dev-PrimeraDespuesDelRegistroLambdaFunctionQualifiedArn"
+          }
+        },
+        "SegundaDespuesDelRegistroLambdaFunctionQualifiedArn": {
+          "Description": "Current Lambda function version",
+          "Value": {
+            "Ref": "SegundaDespuesDelRegistroLambdaVersionkmAYCOBFvTZL0zWfDwHbPCPorwsdmEbFx4nQMIL4"
+          },
+          "Export": {
+            "Name": "sls-my-serverless-step-functions-dev-SegundaDespuesDelRegistroLambdaFunctionQualifiedArn"
+          }
+        },
+        "StartStateMachineLambdaFunctionQualifiedArn": {
+          "Description": "Current Lambda function version",
+          "Value": {
+            "Ref": "StartStateMachineLambdaVersion6IX2SLicGczz62Inb8CZlwZHAgYq5PP3kK5gZBa9T8"
+          },
+          "Export": {
+            "Name": "sls-my-serverless-step-functions-dev-StartStateMachineLambdaFunctionQualifiedArn"
+          }
+        },
+        "UserRegistrationFlowStepFunctionsStateMachineArn": {
+          "Description": "Current StateMachine Arn",
+          "Value": {
+            "Ref": "UserRegistrationFlowStepFunctionsStateMachine"
+          },
+          "Export": {
+            "Name": "sls-my-serverless-step-functions-dev-UserRegistrationFlowStepFunctionsStateMachineArn"
+          }
+        },
+        "MyStateMachineStepFunctionsStateMachineArn": {
+          "Description": "Current StateMachine Arn",
+          "Value": {
+            "Ref": "MyStateMachineStepFunctionsStateMachine"
+          },
+          "Export": {
+            "Name": "sls-my-serverless-step-functions-dev-MyStateMachineStepFunctionsStateMachineArn"
+          }
+        },
+        "UpdatePriceListsBCArn": {
+          "Description": "Current StateMachine Arn",
+          "Value": {
+            "Ref": "UpdatePriceListsBC"
+          },
+          "Export": {
+            "Name": "sls-my-serverless-step-functions-dev-UpdatePriceListsBCArn"
+          }
+        },
+        "CrearOrden2Arn": {
+          "Description": "Current StateMachine Arn",
+          "Value": {
+            "Ref": "CrearOrden2"
+          },
+          "Export": {
+            "Name": "sls-my-serverless-step-functions-dev-CrearOrden2Arn"
+          }
+        },
+        "ServiceEndpoint": {
+          "Description": "URL of the service endpoint",
+          "Value": {
+            "Fn::Join": [
+              "",
+              [
+                "https://",
+                {
+                  "Ref": "ApiGatewayRestApi"
+                },
+                ".execute-api.",
+                {
+                  "Ref": "AWS::Region"
+                },
+                ".",
+                {
+                  "Ref": "AWS::URLSuffix"
+                },
+                "/dev"
+              ]
+            ]
+          },
+          "Export": {
+            "Name": "sls-my-serverless-step-functions-dev-ServiceEndpoint"
+          }
+        }
+      }
+    }
   }
 }
